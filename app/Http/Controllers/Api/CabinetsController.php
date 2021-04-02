@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Cabinet;
 
+use Validator;
 class CabinetsController extends Controller
 {
     /**
@@ -41,10 +42,9 @@ class CabinetsController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+
+                'numberCabinet' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150'
             ]
         );
         if ($validator->fails()){
@@ -54,7 +54,7 @@ class CabinetsController extends Controller
             ] ;
         }
         $Cabinet = Cabinet::create([
-            "codePosition" => $request->codePosition,
+            "numberCabinet" => $request->numberCabinet,
             "description" => $request->description
         ]);
         return [
@@ -94,7 +94,30 @@ class CabinetsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
+        $validator = Validator::make(
+            $request->all(),
+            [
+
+                'numberCabinet' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150',
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
+        $Cabinet = Cabinet::find($id);
+
+        $Cabinet->numberCabinet = $request->numberCabinet;
+        $Cabinet->description = $request->description;
+
+
+        $Cabinet->save();
+
+        return $Cabinet;
     }
 
     /**
@@ -106,5 +129,11 @@ class CabinetsController extends Controller
     public function destroy($id)
     {
         //
+        $Cabinet = Cabinet::find($id);
+        $Cabinet->delete();
+
+        return response()->json([
+            "status" => true
+        ]);
     }
 }

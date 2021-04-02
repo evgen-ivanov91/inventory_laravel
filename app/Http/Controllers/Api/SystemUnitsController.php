@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\SystemUnit;
+use Validator;
 class SystemUnitsController extends Controller
 {
     /**
@@ -40,10 +41,19 @@ class SystemUnitsController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация системный блок ввод
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+                'model' =>'required| string| min: 3| max: 50',
+                'invNum' =>'required| string| min: 1| max:20',
+                'serialNum' =>'unique:cartridges|string| max: 50',
+                'CPU' =>'string| max: 50',
+                'RAM' =>'string| max: 50',
+                'SSD' =>'string| max: 50',
+                'HDD' =>'string| max: 50',
+                'VideoCard' =>'string| max: 50',
+                'Licence' =>'string| max: 50',
+                'Other1' =>'string| max: 300',
+                'Other2' =>'string| max: 300',
+                'Other3' =>'string| max: 300',
+                'client_id' =>'max:30|exists:clients,id'
             ]
         );
         if ($validator->fails()){
@@ -53,6 +63,7 @@ class SystemUnitsController extends Controller
             ] ;
         }
         $SystemUnit = SystemUnit::create([
+            "model" => $request->model,
             "invNum" => $request->invNum,
             "serialNum" => $request->serialNum,
             "CPU" => $request->CPU,
@@ -105,7 +116,48 @@ class SystemUnitsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validator = Validator::make(
+            $request->all(),
+            [
+                'model' =>'required| string| min: 3| max: 50',
+                'invNum' =>'required| string| min: 1| max:20',
+                'serialNum' =>'unique:cartridges|string| max: 50',
+                'CPU' =>'string| max: 50',
+                'RAM' =>'string| max: 50',
+                'SSD' =>'string| max: 50',
+                'HDD' =>'string| max: 50',
+                'VideoCard' =>'string| max: 50',
+                'Licence' =>'string| max: 50',
+                'Other1' =>'string| max: 300',
+                'Other2' =>'string| max: 300',
+                'Other3' =>'string| max: 300',
+                'client_id' =>'max:30|exists:clients,id'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
+        $SystemUnit = SystemUnit::find($id);
+
+        $SystemUnit->invNum = $request->invNum;
+        $SystemUnit->CPU = $request->CPU;
+        $SystemUnit->RAM = $request->RAM;
+        $SystemUnit->SSD = $request->SSD;
+        $SystemUnit->HDD = $request->HDD;
+        $SystemUnit->VideoCard = $request->VideoCard;
+        $SystemUnit->Licence = $request->Licence;
+        $SystemUnit->Other1 = $request->Other1;
+        $SystemUnit->Other2 = $request->Other2;
+        $SystemUnit->Other3 = $request->Other3;
+        $SystemUnit->client_id = $request->client_id;
+
+
+        $SystemUnit->save();
+
+        return $SystemUnit;
     }
 
     /**
@@ -117,5 +169,11 @@ class SystemUnitsController extends Controller
     public function destroy($id)
     {
         //
+        $SystemUnit = SystemUnit::find($id);
+        $SystemUnit->delete();
+
+        return response()->json([
+            "status" => true
+        ]);
     }
 }

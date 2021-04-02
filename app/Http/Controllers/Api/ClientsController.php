@@ -54,8 +54,15 @@ class ClientsController extends Controller
         $validator = Validator::make(
           $request->all(),
           [
-              'pib' =>'required',
-              'locations' =>'min:1',
+              'pib' =>'required| string| min: 5| max: 50',
+              'locations' =>'required| string| min: 1| max:50',
+              'departament' =>'string| max: 150',
+              'position' =>'string| max: 150',
+              'phone' =>'string| max: 20',
+              'login' =>'string| max: 20',
+              'email' =>'string| email| max: 50',
+              'numline' =>'string| min: 3| max: 5',
+              'status' =>'string| max: 50',
               'dob' => 'min:6'
           ]
         );
@@ -122,7 +129,27 @@ class ClientsController extends Controller
      */
     public function update(Request $request, $id)
     {
-
+        $validator = Validator::make(
+            $request->all(),
+            [
+                'pib' =>'required| string| min: 5| max: 50',
+                'locations' =>'required| string| min: 1| max:50',
+                'departament' =>'string| min: 5| max: 150',
+                'position' =>'string| min: 5| max: 150',
+                'phone' =>'string| min: 3| max: 20',
+                'login' =>'string| min: 3| max: 20',
+                'email' =>'string| email| min: 3| max: 20',
+                'numline' =>'string| min: 3| max: 5',
+                'status' =>'string| min: 1| max: 50',
+                'dob' => 'min:6'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
         // ИЗМЕНЕНИЕ надо добавить валидацию!
         $client = Client::find($id);
 

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Departament;
 
+use Validator;
 class DepartamentsController extends Controller
 {
     /**
@@ -41,10 +42,9 @@ class DepartamentsController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+
+                'codeDepartament' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150'
             ]
         );
         if ($validator->fails()){
@@ -54,7 +54,7 @@ class DepartamentsController extends Controller
             ] ;
         }
         $Departament = Departament::create([
-            "codePosition" => $request->codePosition,
+            "codeDepartament" => $request->codeDepartament,
             "description" => $request->description
         ]);
         return [
@@ -94,7 +94,29 @@ class DepartamentsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validator = Validator::make(
+            $request->all(),
+            [
+
+                'codeDepartament' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
+        $Departament = Departament::find($id);
+
+        $Departament->numberCabinet = $request->numberCabinet;
+        $Departament->description = $request->description;
+
+
+        $Departament->save();
+
+        return $Departament;
     }
 
     /**
@@ -106,5 +128,11 @@ class DepartamentsController extends Controller
     public function destroy($id)
     {
         //
+        $Departament = Departament::find($id);
+        $Departament->delete();
+
+        return response()->json([
+            "status" => true
+        ]);
     }
 }

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Position;
 
+use Validator;
 class PositionsController extends Controller
 {
     /**
@@ -41,10 +42,8 @@ class PositionsController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+                'codePosition' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150'
             ]
         );
         if ($validator->fails()){
@@ -94,7 +93,28 @@ class PositionsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validator = Validator::make(
+            $request->all(),
+            [
+                'codePosition' =>'required| string| min: 1| max: 5',
+                'description' =>'required| string| min: 3| max: 150'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
+        $Position = Position::find($id);
+
+        $Position->codePosition = $request->codePosition;
+        $Position->description = $request->description;
+
+
+        $Position->save();
+
+        return $Position;
     }
 
     /**
@@ -106,5 +126,11 @@ class PositionsController extends Controller
     public function destroy($id)
     {
         //
+        $Position = Position::find($id);
+        $Position->delete();
+
+        return response()->json([
+            "status" => true
+        ]);
     }
 }

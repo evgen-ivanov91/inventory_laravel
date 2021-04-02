@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Cartridges;
-
+use Validator;
 class CartridgesController extends Controller
 {
     /**
@@ -41,10 +41,15 @@ class CartridgesController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+                'model' =>'required| string| min: 3| max: 50',
+                'invNum' =>'required| string| min: 1| max:20',
+                'serialNum' =>'unique:cartridges|string| max: 50',
+                'compatibility' =>'string| max: 150',
+                'take' =>'string| max: 20',
+                'fueled' =>'string| max: 20',
+                'issued' =>'string| email| max: 50',
+                'client_id' =>'max:30|exists:clients,id',
+                'status' =>'string| max: 50'
             ]
         );
         if ($validator->fails()){
@@ -110,12 +115,27 @@ class CartridgesController extends Controller
      */
     public function update(Request $request, $id)
     {
-
+        $validator = Validator::make(
+            $request->all(),
+            [
+                'invNum' =>'required| string| min: 1| max:20',
+                'take' =>'string| max: 20',
+                'fueled' =>'string| max: 20',
+                'issued' =>'string| email| max: 50',
+                'client_id' =>'max:30|exist: Clients, id',
+                'status' =>'string| max: 50'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
         // ИЗМЕНЕНИЕ надо добавить валидацию!
         $Cartridges = Cartridges::find($id);
 
         $Cartridges->invNum = $request->invNum;
-        $Cartridges->Other = $request->Other;
         $Cartridges->client_id = $request->client_id;
         $Cartridges->take = $request->take;
         $Cartridges->fueled = $request->fueled;

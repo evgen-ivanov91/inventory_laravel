@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Monitor;
 
+use Validator;
 class MonitorController extends Controller
 {
     /**
@@ -41,10 +42,11 @@ class MonitorController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-//                тут будет валидация
-//                'pib' =>'required',
-//                'locations' =>'min:1',
-//                'dob' => 'min:6'
+                 'model' =>'required| string| min: 3| max: 50',
+                'invNum' =>'required| string| min: 1| max:20',
+                'serialNum' =>'unique:cartridges|string| max: 50',
+                'Other' =>'string| max: 300',
+                'client_id' =>'max:30|exists:clients,id'
             ]
         );
         if ($validator->fails()){
@@ -106,7 +108,22 @@ class MonitorController extends Controller
     public function update(Request $request, $id)
     {
 
-        // ИЗМЕНЕНИЕ надо добавить валидацию!
+        $validator = Validator::make(
+            $request->all(),
+            [
+
+                'invNum' =>'required| string| min: 1| max:20',
+
+                'Other' =>'string| max: 300',
+                'client_id' =>'max:30|exists:clients,id'
+            ]
+        );
+        if ($validator->fails()){
+            return [
+                "status" => false,
+                $validator->messages()
+            ] ;
+        }
         $Monitor = Monitor::find($id);
 
         $Monitor->invNum = $request->invNum;
