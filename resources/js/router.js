@@ -7,6 +7,8 @@ Vue.use(VueRouter)
 
 import Users from "./components/views/Users";
 import Home from "./components/views/Home";
+import Login from "./components/views/Login";
+
 const routes = [
     {
         path:  '/',
@@ -15,6 +17,10 @@ const routes = [
     {
         path:  '/users',
         component: Users
+    },
+    {
+        path:  '/login',
+        component: Login
     }
 ];
 

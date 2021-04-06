@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="card" style="width: 100%;" v-for="client in clients">
+        <div class="card" style="width: 100%;" v-for="client in Clients">
             <div class="card-header">
                 {{ client.pib }}
             </div>
@@ -30,20 +30,21 @@
 <script>
 export default {
 name: "Users",
-    data:()=>({
-        clients: []
-    }),
+    // data:()=>({
+    //     clients: []
+    // }),
     mounted() {
-    this.loadClients();
+        this.loadClients();
     },
     methods:{
-    loadClients(){
-        axios.get('api/Clients')
-        .then(res => {
-            this.clients = res.data;
-            console.log(res.data);
-        })
-    }
+        loadClients(){
+            this.$store.dispatch('ajaxClientsFromDB')
+        }
+    },
+    computed:{
+        Clients(){
+            return this.$store.getters.getClients
+        }
     }
 }
 </script>

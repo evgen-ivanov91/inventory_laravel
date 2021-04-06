@@ -42,6 +42,10 @@ name: "Navigation",
             {
                 title: "Users",
                 href: "/users"
+            },
+            {
+                title: "Login",
+                href: "/login"
             }
         ]
     }
