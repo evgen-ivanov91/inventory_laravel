@@ -77,19 +77,8 @@ name: "CreateUser",
     }),
     methods:{
         store(){
-            axios.post('api/Clients', this.form, {
-                headers:{
-                    "Content-type": "application/json"
-                }
-            })
-            .then(response=>{
-                if(response.data.status){
-                    console.log('OK')
-                }
-            })
-            .catch(error =>{
-                console.log('bad')
-            })
+            const client = {client : this.form}
+            this.$store.dispatch('ajaxSetClientsToDB', client )
         }
     }
 

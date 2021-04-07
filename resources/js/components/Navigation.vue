@@ -48,6 +48,11 @@ name: "Navigation",
                 title: "Login",
                 href: "/login"
             }
+            ,
+            {
+                title: "Registration",
+                href: "/register"
+            }
         ]
     }
     },

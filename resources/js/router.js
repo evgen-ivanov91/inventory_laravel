@@ -8,6 +8,7 @@ Vue.use(VueRouter)
 import Users from "./components/views/Users";
 import Home from "./components/views/Home";
 import Login from "./components/views/Login";
+import Register from "./components/views/Register";
 
 const routes = [
     {
@@ -21,6 +22,10 @@ const routes = [
     {
         path:  '/login',
         component: Login
+    },
+    {
+        path:  '/register',
+        component: Register
     }
 ];
 

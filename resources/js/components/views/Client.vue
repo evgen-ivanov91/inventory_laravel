@@ -80,7 +80,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <li class="list-group-item" v-show="client.all_tech.length">
+                            <li class="list-group-item tech-list" v-show="client.all_tech.length">
                 <span class="item-title">
                     Системный блок
                 </span>
@@ -172,7 +172,7 @@
 
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_monitors.length">
+                            <li class="list-group-item tech-list" v-show="client.all_monitors.length">
                 <span class="item-title">
                     Монитор
                 </span>
@@ -215,7 +215,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_ups.length">
+                            <li class="list-group-item tech-list" v-show="client.all_ups.length">
                 <span class="item-title">
                     Источник бесперебойного питания
                 </span>
@@ -258,7 +258,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_printer.length">
+                            <li class="list-group-item tech-list" v-show="client.all_printer.length">
                 <span class="item-title">
                     Принтер
                 </span>
@@ -301,7 +301,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_mfp.length">
+                            <li class="list-group-item tech-list" v-show="client.all_mfp.length">
                 <span class="item-title">
                     МФУ
                 </span>
@@ -344,7 +344,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_cartridges.length">
+                            <li class="list-group-item tech-list" v-show="client.all_cartridges.length">
                 <span class="item-title">
                     Картриджи
                 </span>
@@ -388,7 +388,7 @@
 
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_scan.length">
+                            <li class="list-group-item tech-list" v-show="client.all_scan.length">
                 <span class="item-title">
                     Сканер
                 </span>
@@ -431,7 +431,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_photoscan.length">
+                            <li class="list-group-item tech-list" v-show="client.all_photoscan.length">
                 <span class="item-title">
                     Фотосканер
                 </span>
@@ -474,7 +474,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_mouse.length">
+                            <li class="list-group-item tech-list" v-show="client.all_mouse.length">
                 <span class="item-title">
                     Мышка
                 </span>
@@ -517,7 +517,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_keyboard.length">
+                            <li class="list-group-item tech-list" v-show="client.all_keyboard.length">
                 <span class="item-title">
                     Клавиатура
                 </span>
@@ -560,7 +560,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item"  v-show="client.all_headphones.length">
+                            <li class="list-group-item tech-list"  v-show="client.all_headphones.length">
                 <span class="item-title">
                     Наушники
                 </span>
@@ -603,7 +603,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_speakers.length">
+                            <li class="list-group-item tech-list" v-show="client.all_speakers.length">
                 <span class="item-title">
                     Колонки
                 </span>
@@ -646,7 +646,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_barcode_scaner.length" >
+                            <li class="list-group-item tech-list" v-show="client.all_barcode_scaner.length" >
                 <span class="item-title">
                     Сканер штрихкодов
                 </span>
@@ -689,7 +689,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="list-group-item" v-show="client.all_other.length">
+                            <li class="list-group-item tech-list" v-show="client.all_other.length">
                 <span class="item-title">
                     Другая техника
                 </span>
@@ -758,4 +758,10 @@ export default {
 .disciption{
     width: 40%;
 }
+/*.tech-list ul:nth-child(odd){*/
+/*    background-color:#f5eb82;*/
+/*}*/
+/*ul>li>ul:nth-child(odd){*/
+/*    background-color:#f5eb82;*/
+/*}*/
 </style>
