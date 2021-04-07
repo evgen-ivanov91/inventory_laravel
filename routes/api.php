@@ -18,6 +18,7 @@ use App\Http\Controllers\Api\CartridgesController;
 use App\Http\Controllers\Api\CabinetsController;
 use App\Http\Controllers\Api\PositionsController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Api\UpsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -52,6 +53,7 @@ Route::group(['middleware'=>['auth:sanctum']],function(){
     Route::resource('Cartridges', CartridgesController:: class);
     Route::resource('Cabinets', CabinetsController:: class);
     Route::resource('Positions', PositionsController:: class);
+    Route::resource('Ups', UpsController:: class);
     Route::post('/logout',[AuthController::class, 'logout']);
 });
 

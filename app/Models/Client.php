@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Client extends Model
 {
     use HasFactory;
-    protected $fillable = ['pib','locations','departament','position','phone','dob','login', 'email', 'numline', 'status'];
+    protected $fillable = ['pib','locations','departament','position','phone','dob','inventory_data','login', 'email', 'numline', 'status'];
     public function allTech(){
         return $this->hasMany(SystemUnit::class, 'client_id', 'id');
     }
@@ -17,6 +17,9 @@ class Client extends Model
     }
     public function allBarcodeScaner(){
         return $this->hasMany(BarcodeScaner::class, 'client_id', 'id');
+    }
+    public function allUps(){
+        return $this->hasMany(Ups::class, 'client_id', 'id');
     }
     public function allHeadphones(){
         return $this->hasMany(Headphones::class, 'client_id', 'id');

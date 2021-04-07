@@ -28,7 +28,8 @@ class ClientsController extends Controller
             'allPrinter',
             'allScan',
             'allSpeakers',
-            'allCartridges'])->get();
+            'allCartridges',
+            'allUps'])->get();
 
         return response()->json($client);
     }
@@ -63,7 +64,8 @@ class ClientsController extends Controller
               'email' =>'string| email| max: 50',
               'numline' =>'string| min: 3| max: 5',
               'status' =>'string| max: 50',
-              'dob' => 'min:6'
+              'dob' => 'min:6',
+              'inventory_data'=>'min:6'
           ]
         );
         if ($validator->fails()){
@@ -79,6 +81,7 @@ class ClientsController extends Controller
             "position" => $request->position,
             "phone" => $request->phone,
             "dob" => $request->dob,
+            "inventory_data" => $request->inventory_data,
             "login" => $request->login,
             "email" => $request->email,
             "numline" => $request->numline,
@@ -141,7 +144,8 @@ class ClientsController extends Controller
                 'email' =>'string| email| min: 3| max: 20',
                 'numline' =>'string| min: 3| max: 5',
                 'status' =>'string| min: 1| max: 50',
-                'dob' => 'min:6'
+                'dob' => 'min:6',
+                'inventory_data'=>'min:6'
             ]
         );
         if ($validator->fails()){
@@ -158,6 +162,7 @@ class ClientsController extends Controller
         $client->position = $request->position;
         $client->phone = $request->phone;
         $client->dob = $request->dob;
+        $client->inventory_data = $request->inventory_data;
         $client->login = $request->login;
         $client->email = $request->email;
         $client->numline = $request->numline;

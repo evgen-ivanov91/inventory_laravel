@@ -21,6 +21,7 @@ class CreateClientsTable extends Migration
             $table->string('position', 50)->nullable();
             $table->string('phone' , 20)->nullable();
             $table->date('dob')->nullable();
+            $table->date('inventory_data')->nullable();
             $table->string('login' , 20)->nullable();
             $table->string('email' , 20)->nullable();
             $table->string('numline' , 20)->nullable();
