@@ -123,6 +123,44 @@ export default new Vuex.Store({
                 .catch(e =>{
                     console.log(e.response.data)
                 })
+        },
+        ajaxEditClientsInDB({commit}, clients){
+            const token = localStorage.getItem('token')
+            console.log(clients)
+            axios
+                .put(`api/Clients/${clients.id}`,
+                    clients,
+                    { headers: {
+                            'Content-Type': 'application/json',
+                            Authorization: `Bearer ${token}`
+                        }})
+                .then(response =>{
+                    console.log(clients)
+                    console.log(response)
+                })
+                .catch(e =>{
+                    console.log('ВСЕ ХЕРОВО!')
+                    console.log(clients)
+                console.log(e.response.data)
+            })
+        },
+        ajaxDeleteClients({commit}, clients){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/Clients/${clients.id}`,
+                    { headers: {
+                            'Content-Type': 'application/json',
+                            Authorization: `Bearer ${token}`
+                        }})
+                .then(response =>{
+                    console.log(clients)
+                    console.log(response)
+                })
+                .catch(e =>{
+                    console.log('ВСЕ ХЕРОВО!')
+                    console.log(clients)
+                    console.log(e.response.data)
+                })
         }
     },
     mutations:{

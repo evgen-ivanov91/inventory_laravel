@@ -154,19 +154,19 @@ class ClientsController extends Controller
                 $validator->messages()
             ] ;
         }
-        // ИЗМЕНЕНИЕ надо добавить валидацию!
+
         $client = Client::find($id);
 
-        $client->pib = $request->pib;
-        $client->locations = $request->locations;
-        $client->position = $request->position;
-        $client->phone = $request->phone;
-        $client->dob = $request->dob;
-        $client->inventory_data = $request->inventory_data;
-        $client->login = $request->login;
-        $client->email = $request->email;
-        $client->numline = $request->numline;
-        $client->status = $request->status;
+        $client->pib = $request->get('pib') ;
+        $client->locations = $request->get('locations') ;
+        $client->position = $request->get('position') ;
+        $client->phone = $request->get('phone') ;
+        $client->dob = $request->get('dob') ;
+        $client->inventory_data = $request->get('inventory_data') ;
+        $client->login = $request->get('login') ;
+        $client->email = $request->get('email') ;
+        $client->numline = $request->get('numline') ;
+        $client->status = $request->get('status') ;
 
         $client->save();
 
