@@ -44,17 +44,23 @@ export default {
             name: '',
             email:'',
             password:'',
-            repeatPassword:''
+            repeatPassword:'',
+            is_admin : null
         }
     },
     methods:{
         onSubmit(){
-            const user = {
+            const data = {
                 name: this.name,
                 email: this.email,
-                password: this.password
+                password: this.password,
+                is_admin: this.is_admin
             }
-            this.$store.dispatch('register', user)
+            this.$store.dispatch('register', data)
+                .then(() => console.log(data)
+                    // this.$router.push('/')
+                )
+                .catch(err => console.log(err))
         }
     },
     computed:{

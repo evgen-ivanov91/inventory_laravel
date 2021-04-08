@@ -55,10 +55,10 @@ class ClientsController extends Controller
         $validator = Validator::make(
           $request->all(),
           [
-              'pib' =>'required| string| min: 5| max: 50',
-              'locations' =>'required| string| min: 1| max:50',
-              'departament' =>'string| max: 150',
-              'position' =>'string| max: 150',
+              'pib' =>'required|string|min:5|max:50',
+              'locations' =>'required|string|min:1|max:50',
+              'departament' =>'string| max: 100',
+              'position' =>'string| max: 100',
               'phone' =>'string| max: 20',
               'login' =>'string| max: 20',
               'email' =>'string| email| max: 50',

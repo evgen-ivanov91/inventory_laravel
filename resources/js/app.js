@@ -30,6 +30,7 @@ Vue.component('Users', require('./components/views/Users.vue').default);
  */
 import router from "./router";
 import store from "./store";
+import Axios from 'axios';
 
 
 const app = new Vue({
@@ -37,3 +38,8 @@ const app = new Vue({
     router,
     store,
 });
+Vue.prototype.$http = Axios;
+const token = localStorage.getItem('token')
+if (token) {
+    Vue.prototype.$http.defaults.headers.common['Authorization'] = token
+}

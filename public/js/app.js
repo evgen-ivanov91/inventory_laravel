@@ -5908,25 +5908,33 @@ __webpack_require__.r(__webpack_exports__);
   name: "CreateUser",
   data: function data() {
     return {
-      form: {
-        pib: "",
-        locations: "",
-        departament: "",
-        position: "",
-        phone: "",
-        login: "",
-        email: "",
-        dob: "",
-        numline: ""
-      }
+      pib: "",
+      locations: "",
+      departament: "",
+      position: "",
+      phone: "",
+      login: "",
+      email: "",
+      dob: "",
+      numline: "",
+      status: "1"
     };
   },
   methods: {
     store: function store() {
-      var client = {
-        client: this.form
+      var data = {
+        pib: this.pib,
+        locations: this.locations,
+        departament: this.departament,
+        position: this.position,
+        phone: this.phone,
+        login: this.login,
+        email: this.email,
+        dob: this.dob,
+        numline: this.numline,
+        status: this.status
       };
-      this.$store.dispatch('ajaxSetClientsToDB', client);
+      this.$store.dispatch('ajaxSetClientsToDB', data);
     }
   }
 });
@@ -6040,12 +6048,12 @@ __webpack_require__.r(__webpack_exports__);
     //
     // }
 
-  },
-  computed: {
-    error: function error() {
-      return this.$store.getters.getError;
-    }
-  } // data: function () {
+  } // computed:{
+  //     error(){
+  //         return this.$store.getters.getError
+  //     }
+  // }
+  // data: function () {
   //     return {
   //         details: {
   //             email: "sawayn.fannie@example.net",
@@ -6130,17 +6138,24 @@ __webpack_require__.r(__webpack_exports__);
       name: '',
       email: '',
       password: '',
-      repeatPassword: ''
+      repeatPassword: '',
+      is_admin: null
     };
   },
   methods: {
     onSubmit: function onSubmit() {
-      var user = {
+      var data = {
         name: this.name,
         email: this.email,
-        password: this.password
+        password: this.password,
+        is_admin: this.is_admin
       };
-      this.$store.dispatch('register', user);
+      this.$store.dispatch('register', data).then(function () {
+        return console.log(data);
+      } // this.$router.push('/')
+      )["catch"](function (err) {
+        return console.log(err);
+      });
     }
   },
   computed: {
@@ -6217,6 +6232,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./store */ "./resources/js/store/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -6247,11 +6264,18 @@ Vue.component('Users', __webpack_require__(/*! ./components/views/Users.vue */ "
 
 
 
+
 var app = new Vue({
   el: '#app',
   router: _router__WEBPACK_IMPORTED_MODULE_0__.default,
   store: _store__WEBPACK_IMPORTED_MODULE_1__.default
 });
+Vue.prototype.$http = (axios__WEBPACK_IMPORTED_MODULE_2___default());
+var token = localStorage.getItem('token');
+
+if (token) {
+  Vue.prototype.$http.defaults.headers.common['Authorization'] = token;
+}
 
 /***/ }),
 
@@ -6365,7 +6389,8 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.default);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vuex__WEBPACK_IMPORTED_MODULE_2__.default.Store({
   state: {
-    clients: [],
+    status: '',
+    clients: {},
     token: localStorage.getItem('token') || '',
     user: {}
   },
@@ -6381,89 +6406,58 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
     }
   },
   actions: {
-    // login({commit}, user){
-    //     return new Promise((resolve, reject) => {
-    //         commit('auth_request')
-    //         axios({url: 'api/login', data: user, method: 'POST' })
-    //             .then(resp => {
-    //                 const token = resp.data.token
-    //                 const user = resp.data.user
-    //                 localStorage.setItem('token', token)
-    //                 axios.defaults.headers.common['Authorization'] = token
-    //                 commit('auth_success', token, user)
-    //                 resolve(resp)
-    //                 console.log(token)
-    //             })
-    //             .catch(err => {
-    //                 commit('auth_error')
-    //                 // localStorage.removeItem('token')
-    //                 reject(err)
-    //             })
-    //     })
-    // },
     login: function login(_ref, user) {
       var commit = _ref.commit;
-      // commit('auth_request')
-      axios__WEBPACK_IMPORTED_MODULE_0___default()({
-        url: 'api/login',
-        data: user,
-        method: 'POST'
-      }).then(function (resp) {
-        var token = resp.data.token;
-        var user = resp.data.user;
-        localStorage.setItem('token', token);
-        (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization) = token;
-        commit('auth_success', token, user);
-        resolve(resp);
-      })["catch"](function (err) {
-        commit('auth_error'); // localStorage.removeItem('token')
-
-        reject(err);
+      return new Promise(function (resolve, reject) {
+        commit('auth_request');
+        axios__WEBPACK_IMPORTED_MODULE_0___default()({
+          url: 'api/login',
+          data: user,
+          method: 'POST'
+        }).then(function (resp) {
+          var token = resp.data.token;
+          var user = resp.data.user;
+          localStorage.setItem('token', token);
+          (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization) = token;
+          commit('auth_success', token, user);
+          resolve(resp);
+        })["catch"](function (err) {
+          commit('auth_error');
+          localStorage.removeItem('token');
+          reject(err);
+        });
       });
     },
     register: function register(_ref2, user) {
       var commit = _ref2.commit;
-      // commit('auth_request')
-      axios__WEBPACK_IMPORTED_MODULE_0___default()({
-        url: 'api/register',
-        data: user,
-        method: 'POST'
-      }).then(function (resp) {
-        var token = resp.data.token;
-        var user = resp.data.user;
-        localStorage.setItem('token', token);
-        (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization) = token;
-        commit('auth_success', token, user);
-        resolve(resp);
-      })["catch"](function (err) {
-        commit('auth_error', err); // localStorage.removeItem('token')
-
-        reject(err);
-      }); // return new Promise((resolve, reject) => {
-      //     commit('auth_request')
-      //     axios({url: 'api/register', data: user, method: 'POST' })
-      //         .then(resp => {
-      //             const token = resp.data.token
-      //             const user = resp.data.user
-      //             localStorage.setItem('token', token)
-      //             axios.defaults.headers.common['Authorization'] = token
-      //             commit('auth_success', token, user)
-      //             resolve(resp)
-      //         })
-      //         .catch(err => {
-      //             commit('auth_error', err)
-      //             localStorage.removeItem('token')
-      //             reject(err)
-      //         })
-      // })
+      return new Promise(function (resolve, reject) {
+        commit('auth_request');
+        axios__WEBPACK_IMPORTED_MODULE_0___default()({
+          url: 'api/register',
+          data: user,
+          method: 'POST'
+        }).then(function (resp) {
+          var token = resp.data.token;
+          var user = resp.data.user;
+          localStorage.setItem('token', token);
+          (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization) = token;
+          commit('auth_success', token, user);
+          resolve(resp);
+        })["catch"](function (err) {
+          commit('auth_error', err);
+          localStorage.removeItem('token');
+          reject(err);
+        });
+      });
     },
     logout: function logout(_ref3) {
       var commit = _ref3.commit;
-      // return new Promise((resolve, reject) => {
-      commit('logout');
-      localStorage.removeItem('token');
-      delete (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization);
-      resolve(); // })
+      return new Promise(function (resolve, reject) {
+        commit('logout');
+        localStorage.removeItem('token');
+        delete (axios__WEBPACK_IMPORTED_MODULE_0___default().defaults.headers.common.Authorization);
+        resolve();
+      });
     },
     ajaxClientsFromDB: function ajaxClientsFromDB(context) {
       var token = localStorage.getItem('token');
@@ -6492,34 +6486,27 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
       //     })
       //     .catch(error=>console.log('ошибка', error))
     },
-    ajaxSetClientsToDB: function ajaxSetClientsToDB(_ref4, client) {
+    ajaxSetClientsToDB: function ajaxSetClientsToDB(_ref4, clients) {
       var commit = _ref4.commit;
       var token = localStorage.getItem('token');
       console.log(token);
-      var config = {
+      console.log(clients); // const config = {headers: {Authorization: `Bearer ${token}`}};
+      // axios({url: 'api/Clients', data: client, method: 'POST' }, config)
+      //  axios.post(‘https://site.ru/api/Login.php’, { data: user }, { headers: { ‘content-type’: ‘application/x-www-form-urlencoded’ } })
+
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/Clients', clients, {
         headers: {
+          'Content-Type': 'application/json',
           Authorization: "Bearer ".concat(token)
         }
-      };
-      axios__WEBPACK_IMPORTED_MODULE_0___default()({
-        url: 'api/Clients',
-        data: client,
-        method: 'POST'
-      }, config) // axios
-      //     .post('api/Clients', client, config)
-      .then(function (response) {
-        if (response.data.status) {
-          console.log('OK');
-        }
-      })["catch"](function (error) {
-        console.log(error);
-      }); // axios
-      //     .get("api/Clients", config)
-      //     .then(response => {
-      //         console.log(response)
-      //         context.commit('setClients', response.data)
-      //     })
-      //     .catch(error => console.log('ошибка', error))
+      }).then(function (response) {
+        // if(response.data.status){
+        console.log('OK');
+        console.log(clients);
+        console.log(response); // }
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
     }
   },
   mutations: {
@@ -6540,6 +6527,9 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
     logout: function logout(state) {
       state.status = '';
       state.token = '';
+    },
+    ajaxSetClientsToDB: function ajaxSetClientsToDB(state, payload) {
+      state.clients.push(payload);
     }
   } // modules: {
   //     auth
@@ -46797,19 +46787,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.pib,
-                  expression: "form.pib"
+                  value: _vm.pib,
+                  expression: "pib"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputPib" },
-              domProps: { value: _vm.form.pib },
+              domProps: { value: _vm.pib },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "pib", $event.target.value)
+                  _vm.pib = $event.target.value
                 }
               }
             })
@@ -46827,19 +46817,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.locations,
-                  expression: "form.locations"
+                  value: _vm.locations,
+                  expression: "locations"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputLocations" },
-              domProps: { value: _vm.form.locations },
+              domProps: { value: _vm.locations },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "locations", $event.target.value)
+                  _vm.locations = $event.target.value
                 }
               }
             })
@@ -46857,19 +46847,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.departament,
-                  expression: "form.departament"
+                  value: _vm.departament,
+                  expression: "departament"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputDepartament" },
-              domProps: { value: _vm.form.departament },
+              domProps: { value: _vm.departament },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "departament", $event.target.value)
+                  _vm.departament = $event.target.value
                 }
               }
             })
@@ -46887,19 +46877,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.position,
-                  expression: "form.position"
+                  value: _vm.position,
+                  expression: "position"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputPosition" },
-              domProps: { value: _vm.form.position },
+              domProps: { value: _vm.position },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "position", $event.target.value)
+                  _vm.position = $event.target.value
                 }
               }
             })
@@ -46917,19 +46907,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.phone,
-                  expression: "form.phone"
+                  value: _vm.phone,
+                  expression: "phone"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputPhone" },
-              domProps: { value: _vm.form.phone },
+              domProps: { value: _vm.phone },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "phone", $event.target.value)
+                  _vm.phone = $event.target.value
                 }
               }
             })
@@ -46947,19 +46937,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.login,
-                  expression: "form.login"
+                  value: _vm.login,
+                  expression: "login"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputLogin" },
-              domProps: { value: _vm.form.login },
+              domProps: { value: _vm.login },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "login", $event.target.value)
+                  _vm.login = $event.target.value
                 }
               }
             })
@@ -46977,19 +46967,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.email,
-                  expression: "form.email"
+                  value: _vm.email,
+                  expression: "email"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "InputEmail" },
-              domProps: { value: _vm.form.email },
+              domProps: { value: _vm.email },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "email", $event.target.value)
+                  _vm.email = $event.target.value
                 }
               }
             })
@@ -47007,19 +46997,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.dob,
-                  expression: "form.dob"
+                  value: _vm.dob,
+                  expression: "dob"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "date", id: "InputDob" },
-              domProps: { value: _vm.form.dob },
+              domProps: { value: _vm.dob },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "dob", $event.target.value)
+                  _vm.dob = $event.target.value
                 }
               }
             })
@@ -47037,19 +47027,19 @@ var render = function() {
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.form.numline,
-                  expression: "form.numline"
+                  value: _vm.numline,
+                  expression: "numline"
                 }
               ],
               staticClass: "form-control",
               attrs: { type: "text", id: "Inputnumline" },
-              domProps: { value: _vm.form.numline },
+              domProps: { value: _vm.numline },
               on: {
                 input: function($event) {
                   if ($event.target.composing) {
                     return
                   }
-                  _vm.$set(_vm.form, "numline", $event.target.value)
+                  _vm.numline = $event.target.value
                 }
               }
             })

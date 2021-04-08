@@ -61,11 +61,11 @@ name: "Login",
         //
         // }
     },
-    computed:{
-        error(){
-            return this.$store.getters.getError
-        }
-    }
+    // computed:{
+    //     error(){
+    //         return this.$store.getters.getError
+    //     }
+    // }
     // data: function () {
     //     return {
     //         details: {
