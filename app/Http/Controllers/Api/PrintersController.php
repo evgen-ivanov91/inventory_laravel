@@ -42,10 +42,10 @@ class PrintersController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-                'model' =>'required| string| min: 3| max: 50',
-                'invNum' =>'required| string| min: 1| max:20',
-                'serialNum' =>'unique:cartridges|string| max: 50',
-                'Other' =>'string| max: 300',
+                'model' =>'required| min: 3| max: 50',
+                'invNum' =>'required| min: 1| max:20',
+                'serialNum' =>'unique:printers| max: 50',
+                'Other' =>'max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );
@@ -113,9 +113,9 @@ class PrintersController extends Controller
             $request->all(),
             [
 
-                'invNum' =>'required| string| min: 1| max:20',
+                'invNum' =>'required| min: 1| max:20',
 
-                'Other' =>'string| max: 300',
+                'Other' =>'max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );

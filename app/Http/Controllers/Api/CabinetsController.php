@@ -43,8 +43,8 @@ class CabinetsController extends Controller
             $request->all(),
             [
 
-                'numberCabinet' =>'required| string| min: 1| max: 5',
-                'description' =>'required| string| min: 3| max: 150'
+                'numberCabinet' =>'required| min: 1| max: 5',
+                'description' =>'required| min: 2| max: 150'
             ]
         );
         if ($validator->fails()){
@@ -100,7 +100,7 @@ class CabinetsController extends Controller
             [
 
                 'numberCabinet' =>'required| string| min: 1| max: 5',
-                'description' =>'required| string| min: 3| max: 150',
+                'description' =>'required| min:1 | max: 150',
             ]
         );
         if ($validator->fails()){

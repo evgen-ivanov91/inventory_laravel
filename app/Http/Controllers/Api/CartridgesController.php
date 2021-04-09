@@ -43,13 +43,13 @@ class CartridgesController extends Controller
             [
                 'model' =>'required| string| min: 3| max: 50',
                 'invNum' =>'required| string| min: 1| max:20',
-                'serialNum' =>'unique:cartridges|string| max: 50',
-                'compatibility' =>'string| max: 150',
-                'take' =>'string| max: 20',
-                'fueled' =>'string| max: 20',
-                'issued' =>'string| email| max: 50',
+                'serialNum' =>'unique:cartridges| max: 50',
+                'compatibility' =>' max: 150',
+                'take' =>'max: 50',
+                'fueled' =>'max: 50',
+                'issued' =>' max: 50',
                 'client_id' =>'max:30|exists:clients,id',
-                'status' =>'string| max: 50'
+                'status' =>' max: 1'
             ]
         );
         if ($validator->fails()){
@@ -119,11 +119,11 @@ class CartridgesController extends Controller
             $request->all(),
             [
                 'invNum' =>'required| string| min: 1| max:20',
-                'take' =>'string| max: 20',
-                'fueled' =>'string| max: 20',
-                'issued' =>'string| email| max: 50',
-                'client_id' =>'max:30|exist: Clients, id',
-                'status' =>'string| max: 50'
+                'take' =>' max: 50',
+                'fueled' =>' max: 50',
+                'issued' =>'max: 50',
+                'client_id' =>'exist: Clients, id',
+                'status' =>' max: 1'
             ]
         );
         if ($validator->fails()){

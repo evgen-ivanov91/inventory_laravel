@@ -44,8 +44,8 @@ class MfpController extends Controller
             [
                 'model' =>'required| string| min: 3| max: 50',
                 'invNum' =>'required| string| min: 1| max:20',
-                'serialNum' =>'unique:cartridges|string| max: 50',
-                'Other' =>'string| max: 300',
+                'serialNum' =>'unique:mfps| max: 50',
+                'Other' =>'max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );
@@ -114,9 +114,9 @@ class MfpController extends Controller
             $request->all(),
             [
 
-                'invNum' =>'required| string| min: 1| max:20',
+                'invNum' =>'required| min: 1| max:20',
 
-                'Other' =>'string| max: 300',
+                'Other' =>'max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );

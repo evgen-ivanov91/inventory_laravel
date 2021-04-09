@@ -5067,10 +5067,2122 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "BarcodeScan",
+  props: ['barcodeScan']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  //numberCabinet	description
+  name: "Cabinet",
+  props: ['cabinet']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Cartridge",
+  props: ['cartridge']
+}); //model	invNum	serialNum	compatibility	take	fueled	issued	client_id
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _v_popup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./v-popup */ "./resources/js/components/views/v-popup.vue");
+/* harmony import */ var _EditPopup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EditPopup */ "./resources/js/components/views/EditPopup.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Client",
+  components: {
+    EditPopup: _EditPopup__WEBPACK_IMPORTED_MODULE_2__.default,
+    VPopup: _v_popup__WEBPACK_IMPORTED_MODULE_1__.default
+  },
+  props: ['client'],
+  data: function data() {
+    return {
+      id: '',
+      pib: '',
+      locations: '',
+      phone: '',
+      numline: '',
+      login: '',
+      email: '',
+      departament: '',
+      position: '',
+      dob: '',
+      inventory_data: '',
+      status: '1',
+      showModal: false,
+      isPopupVisible: false,
+      isEditVisible: false
+    };
+  },
+  created: function created() {
+    console.log(this.client.id);
+  },
+  methods: {
+    showEdit: function showEdit() {
+      this.isEditVisible = true;
+    },
+    closeEdit: function closeEdit() {
+      this.isEditVisible = false;
+    },
+    showPopup: function showPopup() {
+      this.isPopupVisible = true;
+    },
+    closePopup: function closePopup() {
+      this.isPopupVisible = false;
+    },
+    editClient: function editClient(client) {
+      this.id = client.id, this.pib = client.pib, this.locations = client.locations, this.phone = client.phone, this.numline = client.numline, this.login = client.login, this.email = client.email, this.departament = client.departament, this.position = client.position, this.dob = client.dob, this.inventory_data = client.inventory_data;
+    },
+    finishEditClient: function finishEditClient(client) {
+      var _this = this;
+
+      var data = {
+        id: this.id,
+        pib: this.pib,
+        locations: this.locations,
+        departament: this.departament,
+        position: this.position,
+        phone: this.phone,
+        login: this.login,
+        email: this.email,
+        dob: this.dob,
+        numline: this.numline,
+        status: this.status
+      };
+      this.$store.dispatch('ajaxEditClientsInDB', data).then(function () {
+        return _this.$emit('open');
+      }, this.id = '', this.pib = '', this.locations = '', this.phone = '', this.numline = '', this.login = '', this.email = '', this.departament = '', this.position = '', this.dob = '', this.inventory_data = '')["catch"](function (err) {
+        return console.log(err);
+      });
+      this.closeEdit();
+    },
+    deleteClient: function deleteClient(client) {
+      var _this2 = this;
+
+      this.$store.dispatch('ajaxDeleteClients', client).then(function () {
+        return _this2.$emit('open');
+      })["catch"](function (err) {
+        return console.log(err);
+      });
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateCabinet",
+  data: function data() {
+    return {
+      numberCabinet: '',
+      description: ''
+    };
+  },
+  methods: {
+    store: function store() {
+      console.log(123);
+      var data = {
+        numberCabinet: this.numberCabinet,
+        description: this.description
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetCabinetsToDB', data);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateCartridge",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      compatibility: ' ',
+      client_id: '',
+      status: 1 //model	invNum	serialNum	compatibility	take	fueled	issued	client_id
+
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        compatibility: this.compatibility,
+        client_id: this.client_id,
+        status: this.status
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetCartridgeToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateDepartament",
+  data: function data() {
+    return {
+      codeDepartament: '',
+      description: ''
+    };
+  },
+  methods: {
+    store: function store() {
+      console.log(123);
+      var data = {
+        codeDepartament: this.codeDepartament,
+        description: this.description
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetDepartamentToDB', data);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateHeadphones",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetHeadphonesToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateKeyboard",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetKeyboardToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateMfp",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetMfpToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateMonitor",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetMonitorToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateOther",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetOtherToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreatePhotoscan",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetPhotoscanToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreatePrinter",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetPrinterToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateScan",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetScanToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateSpeakers",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetSpeakersToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5157,683 +7269,72 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "CreateSystemUnit",
+  data: function data() {
+    return {
+      clients: [],
+      model: '',
+      invNum: '',
+      serialNum: '',
+      CPU: '',
+      RAM: '',
+      SSD: '',
+      HDD: '',
+      VideoCard: '',
+      Licence: '',
+      Other1: '',
+      Other2: '',
+      Other3: '',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        CPU: this.CPU,
+        RAM: this.RAM,
+        SSD: this.SSD,
+        HDD: this.HDD,
+        VideoCard: this.VideoCard,
+        Licence: this.Licence,
+        Other1: this.Other1,
+        Other2: this.Other2,
+        Other3: this.Other3,
+        client_id: this.client_id
+      };
+      this.$store.dispatch('ajaxSetSystemUnitToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 //
 //
 //
@@ -5883,65 +7384,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Client",
-  props: ['client'],
+  name: "CreateUps",
   data: function data() {
     return {
-      id: '',
-      pib: '',
-      locations: '',
-      phone: '',
-      numline: '',
-      login: '',
-      email: '',
-      departament: '',
-      position: '',
-      dob: '',
-      inventory_data: '',
-      status: '1'
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
     };
   },
+  mounted: function mounted() {
+    this.loadClients();
+  },
   methods: {
-    editClient: function editClient(client) {
-      this.id = client.id, this.pib = client.pib, this.locations = client.locations, this.phone = client.phone, this.numline = client.numline, this.login = client.login, this.email = client.email, this.departament = client.departament, this.position = client.position, this.dob = client.dob, this.inventory_data = client.inventory_data;
-      console.log(client);
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
     },
-    finishEditClient: function finishEditClient() {
-      var _this = this;
-
+    store: function store() {
+      console.log(123);
       var data = {
-        id: this.id,
-        pib: this.pib,
-        locations: this.locations,
-        departament: this.departament,
-        position: this.position,
-        phone: this.phone,
-        login: this.login,
-        email: this.email,
-        dob: this.dob,
-        numline: this.numline,
-        status: this.status
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
       };
-      this.$store.dispatch('ajaxEditClientsInDB', data).then(function () {
-        return _this.$emit('open');
-      }, this.id = '', this.pib = '', this.locations = '', this.phone = '', this.numline = '', this.login = '', this.email = '', this.departament = '', this.position = '', this.dob = '', this.inventory_data = '')["catch"](function (err) {
-        return console.log(err);
-      });
-    },
-    delClient: function delClient(client) {
-      this.id = client.id;
-    },
-    deleteClient: function deleteClient(client) {
-      var _this2 = this;
-
-      var data = {
-        id: this.client.id
-      };
-      this.$store.dispatch('ajaxDeleteClients', data).then(function () {
-        return _this2.$emit('open');
-      })["catch"](function (err) {
-        return console.log(err);
-      });
+      console.log(data);
+      this.$store.dispatch('ajaxSetUpsToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
     }
   }
 });
@@ -6058,6 +7534,131 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Departament",
+  props: ['departament']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "editPopup",
+  props: {
+    popupTitle: {
+      type: String,
+      "default": 'Alert'
+    },
+    okBtnTitle: {
+      type: String,
+      "default": 'OK'
+    }
+  },
+  data: function data() {
+    return {};
+  },
+  computed: {},
+  methods: {
+    okBtnAction: function okBtnAction() {
+      this.$emit('okBtnAction');
+    },
+    closeEdit: function closeEdit() {
+      this.$emit('closeEdit');
+    }
+  },
+  mounted: function mounted() {
+    var vm = this;
+    document.addEventListener('click', function (item) {
+      if (item.target === vm.$refs['popup_wrapper']) {
+        vm.closeEdit();
+      }
+    });
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Headphones",
+  props: ['headphones']
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=script&lang=js& ***!
@@ -6084,6 +7685,36 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     CreateUser: _views_CreateUser_vue__WEBPACK_IMPORTED_MODULE_0__.default
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Keyboard",
+  props: ['keyboard']
 });
 
 /***/ }),
@@ -6199,6 +7830,186 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Mfp",
+  props: ['mfp']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Monitor",
+  props: ['monitor']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Mouse",
+  props: ['mouse']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Other",
+  props: ['other']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Photoscans",
+  props: ['photoscan']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Printer",
+  props: ['printer']
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=script&lang=js& ***!
@@ -6284,6 +8095,324 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Scan",
+  props: ['scan'],
+  created: function created() {
+    console.log(this.scan);
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Speakers",
+  props: ['speakers']
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _v_popup__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./v-popup */ "./resources/js/components/views/v-popup.vue");
+/* harmony import */ var _EditPopup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditPopup */ "./resources/js/components/views/EditPopup.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "SystemUnit",
+  props: ['systemUnit'],
+  components: {
+    EditPopup: _EditPopup__WEBPACK_IMPORTED_MODULE_1__.default,
+    VPopup: _v_popup__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      clients: [],
+      id: '',
+      model: '',
+      invNum: '',
+      serialNum: '',
+      CPU: '',
+      RAM: '',
+      SSD: '',
+      HDD: '',
+      VideoCard: '',
+      Licence: '',
+      Other1: '',
+      Other2: '',
+      Other3: '',
+      client_id: '',
+      isPopupVisible: false,
+      isEditVisible: false
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    showEdit: function showEdit() {
+      this.isEditVisible = true;
+    },
+    closeEdit: function closeEdit() {
+      this.isEditVisible = false;
+    },
+    showPopup: function showPopup() {
+      this.isPopupVisible = true;
+    },
+    closePopup: function closePopup() {
+      this.isPopupVisible = false;
+    },
+    editSystemUnit: function editSystemUnit(systemUnit) {
+      this.id = systemUnit.id, this.model = systemUnit.model, this.invNum = systemUnit.invNum, this.serialNum = systemUnit.serialNum, this.CPU = systemUnit.CPU, this.RAM = systemUnit.RAM, this.SSD = systemUnit.SSD, this.HDD = systemUnit.HDD, this.VideoCard = systemUnit.VideoCard, this.Other1 = systemUnit.Other1, this.Other2 = systemUnit.Other2, this.Other3 = systemUnit.Other3, this.client_id = systemUnit.client_id;
+    },
+    finishEditSystemUnit: function finishEditSystemUnit(systemUnit) {
+      var _this = this;
+
+      var data = {
+        id: this.id,
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        CPU: this.CPU,
+        RAM: this.RAM,
+        SSD: this.SSD,
+        HDD: this.HDD,
+        VideoCard: this.VideoCard,
+        Other1: this.Other1,
+        Other2: this.Other2,
+        Other3: this.Other3,
+        client_id: this.client_id
+      };
+      this.$store.dispatch('ajaxEditSystemUnitInDB', data).then(function () {
+        return _this.$emit('open');
+      }, this.closeEdit())["catch"](function (err) {
+        return console.log(err);
+      });
+    },
+    deleteSystemUnit: function deleteSystemUnit(systemUnit) {
+      var _this2 = this;
+
+      this.$store.dispatch('ajaxDeleteSystemUnit', systemUnit).then(function () {
+        return _this2.$emit('open');
+      })["catch"](function (err) {
+        return console.log(err);
+      });
+    },
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Ups",
+  props: ['ups']
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Users.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Users.vue?vue&type=script&lang=js& ***!
@@ -6327,6 +8456,1126 @@ __webpack_require__.r(__webpack_exports__);
     Clients: function Clients() {
       return this.$store.getters.getClients;
     }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _createBarcodeScan__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createBarcodeScan */ "./resources/js/components/views/createBarcodeScan.vue");
+/* harmony import */ var _BarcodeScan__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BarcodeScan */ "./resources/js/components/views/BarcodeScan.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allBarcodeScans",
+  components: {
+    BarcodeScan: _BarcodeScan__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateBarcodeScan: _createBarcodeScan__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      barcodeScans: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadBarcodeScans();
+  },
+  methods: {
+    loadBarcodeScans: function loadBarcodeScans() {
+      console.log('test');
+      this.$store.dispatch('ajaxBarcodeScanFromDB');
+    }
+  },
+  computed: {
+    BarcodeScans: function BarcodeScans() {
+      return this.$store.getters.getBarcodeScans;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateCabinet__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateCabinet */ "./resources/js/components/views/CreateCabinet.vue");
+/* harmony import */ var _Cabinet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cabinet */ "./resources/js/components/views/Cabinet.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allCabinets",
+  components: {
+    Cabinet: _Cabinet__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateCabinet: _CreateCabinet__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      cabinets: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadCabinets();
+  },
+  methods: {
+    loadCabinets: function loadCabinets() {
+      this.$store.dispatch('ajaxCabinetsFromDB');
+    }
+  },
+  computed: {
+    Cabinets: function Cabinets() {
+      return this.$store.getters.getCabinets;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateCartridge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateCartridge */ "./resources/js/components/views/CreateCartridge.vue");
+/* harmony import */ var _Cartridge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cartridge */ "./resources/js/components/views/Cartridge.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allCartridges",
+  components: {
+    Cartridge: _Cartridge__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateCartridge: _CreateCartridge__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      cartridges: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadCartridges();
+  },
+  methods: {
+    loadCartridges: function loadCartridges() {
+      this.$store.dispatch('ajaxCartridgeFromDB');
+    }
+  },
+  computed: {
+    Cartridges: function Cartridges() {
+      return this.$store.getters.getCartridges;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateDepartament__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateDepartament */ "./resources/js/components/views/CreateDepartament.vue");
+/* harmony import */ var _Departament__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Departament */ "./resources/js/components/views/Departament.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allDepartament",
+  components: {
+    Departament: _Departament__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateDepartament: _CreateDepartament__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      departaments: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadDepartaments();
+  },
+  methods: {
+    loadDepartaments: function loadDepartaments() {
+      this.$store.dispatch('ajaxDepartamentFromDB');
+    }
+  },
+  computed: {
+    Departaments: function Departaments() {
+      return this.$store.getters.getDepartaments;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateHeadphones__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateHeadphones */ "./resources/js/components/views/CreateHeadphones.vue");
+/* harmony import */ var _Headphones__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Headphones */ "./resources/js/components/views/Headphones.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allHeadphoneses",
+  components: {
+    Headphones: _Headphones__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateHeadphones: _CreateHeadphones__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      headphoneses: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadHeadphoneses();
+  },
+  methods: {
+    loadHeadphoneses: function loadHeadphoneses() {
+      this.$store.dispatch('ajaxHeadphonesFromDB');
+    }
+  },
+  computed: {
+    Headphoneses: function Headphoneses() {
+      return this.$store.getters.getHeadphoneses;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateKeyboard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateKeyboard */ "./resources/js/components/views/CreateKeyboard.vue");
+/* harmony import */ var _Keyboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Keyboard */ "./resources/js/components/views/Keyboard.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allKeyboards",
+  components: {
+    Keyboard: _Keyboard__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateKeyboard: _CreateKeyboard__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      keyboards: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadKeyboards();
+  },
+  methods: {
+    loadKeyboards: function loadKeyboards() {
+      this.$store.dispatch('ajaxKeyboardFromDB');
+    }
+  },
+  computed: {
+    Keyboards: function Keyboards() {
+      return this.$store.getters.getKeyboards;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateMfp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateMfp */ "./resources/js/components/views/CreateMfp.vue");
+/* harmony import */ var _Mfp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mfp */ "./resources/js/components/views/Mfp.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allMfps",
+  components: {
+    Mfp: _Mfp__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateMfp: _CreateMfp__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      mfps: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadMfps();
+  },
+  methods: {
+    loadMfps: function loadMfps() {
+      this.$store.dispatch('ajaxMfpFromDB');
+    }
+  },
+  computed: {
+    Mfps: function Mfps() {
+      return this.$store.getters.getMfps;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateMonitor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateMonitor */ "./resources/js/components/views/CreateMonitor.vue");
+/* harmony import */ var _Monitor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Monitor */ "./resources/js/components/views/Monitor.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allMonitors",
+  components: {
+    Monitor: _Monitor__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateMonitor: _CreateMonitor__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      monitors: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadMonitors();
+  },
+  methods: {
+    loadMonitors: function loadMonitors() {
+      this.$store.dispatch('ajaxMonitorFromDB');
+    }
+  },
+  computed: {
+    Monitors: function Monitors() {
+      return this.$store.getters.getMonitors;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _createMouses__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createMouses */ "./resources/js/components/views/createMouses.vue");
+/* harmony import */ var _Mouse__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mouse */ "./resources/js/components/views/Mouse.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allMouses",
+  components: {
+    Mouse: _Mouse__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateMouses: _createMouses__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      mouses: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadMouses();
+  },
+  methods: {
+    loadMouses: function loadMouses() {
+      this.$store.dispatch('ajaxMousesFromDB');
+    }
+  },
+  computed: {
+    Mouses: function Mouses() {
+      return this.$store.getters.getMouses;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateOther__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateOther */ "./resources/js/components/views/CreateOther.vue");
+/* harmony import */ var _Other__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Other */ "./resources/js/components/views/Other.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allOthers",
+  components: {
+    Other: _Other__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateOther: _CreateOther__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      others: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadOthers();
+  },
+  methods: {
+    loadOthers: function loadOthers() {
+      this.$store.dispatch('ajaxOtherFromDB');
+    }
+  },
+  computed: {
+    Others: function Others() {
+      return this.$store.getters.getOthers;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreatePhotoscan__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreatePhotoscan */ "./resources/js/components/views/CreatePhotoscan.vue");
+/* harmony import */ var _Photoscans__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Photoscans */ "./resources/js/components/views/Photoscans.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allPhotoscans",
+  components: {
+    Photoscans: _Photoscans__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreatePhotoscan: _CreatePhotoscan__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      photoscans: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadPhotoscans();
+  },
+  methods: {
+    loadPhotoscans: function loadPhotoscans() {
+      this.$store.dispatch('ajaxPhotoscansFromDB');
+    }
+  },
+  computed: {
+    Photoscans: function Photoscans() {
+      return this.$store.getters.getPhotoscans;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreatePrinter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreatePrinter */ "./resources/js/components/views/CreatePrinter.vue");
+/* harmony import */ var _Printer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Printer */ "./resources/js/components/views/Printer.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allPrinters",
+  components: {
+    Printer: _Printer__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreatePrinter: _CreatePrinter__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      printers: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadPrinters();
+  },
+  methods: {
+    loadPrinters: function loadPrinters() {
+      this.$store.dispatch('ajaxPrinterFromDB');
+    }
+  },
+  computed: {
+    printer: function printer() {
+      return this.$store.getters.getPrinters;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Scan__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Scan */ "./resources/js/components/views/Scan.vue");
+/* harmony import */ var _CreateScan__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateScan */ "./resources/js/components/views/CreateScan.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allScans",
+  components: {
+    CreateScan: _CreateScan__WEBPACK_IMPORTED_MODULE_1__.default,
+    Scan: _Scan__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      scan: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadScans();
+  },
+  methods: {
+    loadScans: function loadScans() {
+      this.$store.dispatch('ajaxScansFromDB');
+      console.log(this.Scans);
+    }
+  },
+  computed: {
+    Scans: function Scans() {
+      return this.$store.getters.getScans;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateSpeakers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateSpeakers */ "./resources/js/components/views/CreateSpeakers.vue");
+/* harmony import */ var _Speakers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Speakers */ "./resources/js/components/views/Speakers.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allSpeakers",
+  components: {
+    Speakers: _Speakers__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateSpeakers: _CreateSpeakers__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      speakerses: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadSpeakers();
+  },
+  methods: {
+    loadSpeakers: function loadSpeakers() {
+      this.$store.dispatch('ajaxSpeakersFromDB');
+    }
+  },
+  computed: {
+    Speakerses: function Speakerses() {
+      return this.$store.getters.getSpeakerses;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SystemUnit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SystemUnit */ "./resources/js/components/views/SystemUnit.vue");
+/* harmony import */ var _CreateSystemUnit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateSystemUnit */ "./resources/js/components/views/CreateSystemUnit.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allSystemUnits",
+  components: {
+    CreateSystemUnit: _CreateSystemUnit__WEBPACK_IMPORTED_MODULE_1__.default,
+    SystemUnit: _SystemUnit__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      systemUnits: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadSystemUnits();
+  },
+  methods: {
+    loadSystemUnits: function loadSystemUnits() {
+      this.$store.dispatch('ajaxSystemUnitFromDB');
+    }
+  },
+  computed: {
+    SystemUnits: function SystemUnits() {
+      return this.$store.getters.getSystemUnits;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateUps__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateUps */ "./resources/js/components/views/CreateUps.vue");
+/* harmony import */ var _Ups__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Ups */ "./resources/js/components/views/Ups.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "allUpss",
+  components: {
+    Ups: _Ups__WEBPACK_IMPORTED_MODULE_1__.default,
+    CreateUps: _CreateUps__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  data: function data() {
+    return {
+      upss: []
+    };
+  },
+  mounted: function mounted() {
+    this.loadUpss();
+  },
+  methods: {
+    loadUpss: function loadUpss() {
+      this.$store.dispatch('ajaxUpsFromDB');
+    }
+  },
+  computed: {
+    Upss: function Upss() {
+      return this.$store.getters.getUps;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "createBarcodeScan",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetBarcodeScanToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "createMouses",
+  data: function data() {
+    return {
+      clients: [],
+      model: ' ',
+      invNum: ' ',
+      serialNum: ' ',
+      Other: ' ',
+      client_id: ''
+    };
+  },
+  mounted: function mounted() {
+    this.loadClients();
+  },
+  methods: {
+    loadClients: function loadClients() {
+      this.$store.dispatch('ajaxClientsFromDB');
+    },
+    store: function store() {
+      console.log(123);
+      var data = {
+        model: this.model,
+        invNum: this.invNum,
+        serialNum: this.serialNum,
+        Other: this.Other,
+        client_id: this.client_id
+      };
+      console.log(data);
+      this.$store.dispatch('ajaxSetMouseToDB', data);
+    }
+  },
+  computed: {
+    Clients: function Clients() {
+      return this.$store.getters.getClients;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "v-popup",
+  props: {
+    popupTitle: {
+      type: String,
+      "default": 'Alert'
+    },
+    okBtnTitle: {
+      type: String,
+      "default": 'OK'
+    }
+  },
+  data: function data() {
+    return {};
+  },
+  computed: {},
+  methods: {
+    okBtnAction: function okBtnAction() {
+      this.$emit('okBtnAction');
+    },
+    closePopup: function closePopup() {
+      this.$emit('closePopup');
+    }
+  },
+  mounted: function mounted() {
+    var vm = this;
+    document.addEventListener('click', function (item) {
+      if (item.target === vm.$refs['popup_wrapper']) {
+        vm.closePopup();
+      }
+    });
   }
 });
 
@@ -6450,9 +9699,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_views_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/views/Home */ "./resources/js/components/views/Home.vue");
 /* harmony import */ var _components_views_Login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/views/Login */ "./resources/js/components/views/Login.vue");
 /* harmony import */ var _components_views_Register__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/views/Register */ "./resources/js/components/views/Register.vue");
+/* harmony import */ var _components_views_allSystemUnits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/views/allSystemUnits */ "./resources/js/components/views/allSystemUnits.vue");
+/* harmony import */ var _components_views_allMonitors__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/views/allMonitors */ "./resources/js/components/views/allMonitors.vue");
+/* harmony import */ var _components_views_allBarcodeScans__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/views/allBarcodeScans */ "./resources/js/components/views/allBarcodeScans.vue");
+/* harmony import */ var _components_views_allMouses__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/views/allMouses */ "./resources/js/components/views/allMouses.vue");
+/* harmony import */ var _components_views_allKeyboards__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/views/allKeyboards */ "./resources/js/components/views/allKeyboards.vue");
+/* harmony import */ var _components_views_allHeadphoneses__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/views/allHeadphoneses */ "./resources/js/components/views/allHeadphoneses.vue");
+/* harmony import */ var _components_views_allSpeakers__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/views/allSpeakers */ "./resources/js/components/views/allSpeakers.vue");
+/* harmony import */ var _components_views_allPrinters__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/views/allPrinters */ "./resources/js/components/views/allPrinters.vue");
+/* harmony import */ var _components_views_allScans__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/views/allScans */ "./resources/js/components/views/allScans.vue");
+/* harmony import */ var _components_views_allMfps__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/views/allMfps */ "./resources/js/components/views/allMfps.vue");
+/* harmony import */ var _components_views_allUpss__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/views/allUpss */ "./resources/js/components/views/allUpss.vue");
+/* harmony import */ var _components_views_allPhotoscans__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/views/allPhotoscans */ "./resources/js/components/views/allPhotoscans.vue");
+/* harmony import */ var _components_views_allOthers__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/views/allOthers */ "./resources/js/components/views/allOthers.vue");
+/* harmony import */ var _components_views_allCartridges__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/views/allCartridges */ "./resources/js/components/views/allCartridges.vue");
+/* harmony import */ var _components_views_allCabinets__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/views/allCabinets */ "./resources/js/components/views/allCabinets.vue");
+/* harmony import */ var _components_views_allDepartament__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/views/allDepartament */ "./resources/js/components/views/allDepartament.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0__.default.use(vue_router__WEBPACK_IMPORTED_MODULE_1__.default);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6469,6 +9750,51 @@ var routes = [{
 }, {
   path: '/register',
   component: _components_views_Register__WEBPACK_IMPORTED_MODULE_5__.default
+}, {
+  path: '/systemunits',
+  component: _components_views_allSystemUnits__WEBPACK_IMPORTED_MODULE_6__.default
+}, {
+  path: '/monitors',
+  component: _components_views_allMonitors__WEBPACK_IMPORTED_MODULE_7__.default
+}, {
+  path: '/barcodescans',
+  component: _components_views_allBarcodeScans__WEBPACK_IMPORTED_MODULE_8__.default
+}, {
+  path: '/mouses',
+  component: _components_views_allMouses__WEBPACK_IMPORTED_MODULE_9__.default
+}, {
+  path: '/keyboards',
+  component: _components_views_allKeyboards__WEBPACK_IMPORTED_MODULE_10__.default
+}, {
+  path: '/headphoneses',
+  component: _components_views_allHeadphoneses__WEBPACK_IMPORTED_MODULE_11__.default
+}, {
+  path: '/printers',
+  component: _components_views_allPrinters__WEBPACK_IMPORTED_MODULE_13__.default
+}, {
+  path: '/scans',
+  component: _components_views_allScans__WEBPACK_IMPORTED_MODULE_14__.default
+}, {
+  path: '/mfps',
+  component: _components_views_allMfps__WEBPACK_IMPORTED_MODULE_15__.default
+}, {
+  path: '/ups',
+  component: _components_views_allUpss__WEBPACK_IMPORTED_MODULE_16__.default
+}, {
+  path: '/photoscans',
+  component: _components_views_allPhotoscans__WEBPACK_IMPORTED_MODULE_17__.default
+}, {
+  path: '/other',
+  component: _components_views_allOthers__WEBPACK_IMPORTED_MODULE_18__.default
+}, {
+  path: '/cartridges',
+  component: _components_views_allCartridges__WEBPACK_IMPORTED_MODULE_19__.default
+}, {
+  path: '/cabinets',
+  component: _components_views_allCabinets__WEBPACK_IMPORTED_MODULE_20__.default
+}, {
+  path: '/departaments',
+  component: _components_views_allDepartament__WEBPACK_IMPORTED_MODULE_21__.default
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__.default({
   mode: "history",
@@ -6494,19 +9820,79 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 
- // import auth from '../auth.js';
 
 vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.default);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vuex__WEBPACK_IMPORTED_MODULE_2__.default.Store({
   state: {
     status: '',
-    clients: {},
+    clients: [],
     token: localStorage.getItem('token') || '',
-    user: {}
+    user: [],
+    systemUnits: [],
+    monitors: [],
+    barcodeScans: [],
+    mouses: [],
+    keyboards: [],
+    headphoneses: [],
+    speakers: [],
+    printers: [],
+    scans: [],
+    mfps: [],
+    upss: [],
+    photoscans: [],
+    others: [],
+    cartridges: [],
+    cabinets: [],
+    departaments: []
   },
   getters: {
     getClients: function getClients(state) {
       return state.clients;
+    },
+    getSystemUnits: function getSystemUnits(state) {
+      return state.systemUnits;
+    },
+    getMonitors: function getMonitors(state) {
+      return state.monitors;
+    },
+    getBarcodeScans: function getBarcodeScans(state) {
+      return state.barcodeScans;
+    },
+    getMouses: function getMouses(state) {
+      return state.mouses;
+    },
+    getKeyboards: function getKeyboards(state) {
+      return state.keyboards;
+    },
+    getHeadphoneses: function getHeadphoneses(state) {
+      return state.headphoneses;
+    },
+    getSpeakerses: function getSpeakerses(state) {
+      return state.speakers;
+    },
+    getPrinters: function getPrinters(state) {
+      return state.printers;
+    },
+    getScans: function getScans(state) {
+      return state.scans;
+    },
+    getMfps: function getMfps(state) {
+      return state.mfps;
+    },
+    getUps: function getUps(state) {
+      return state.upss;
+    },
+    getOthers: function getOthers(state) {
+      return state.others;
+    },
+    getCartridges: function getCartridges(state) {
+      return state.cartridges;
+    },
+    getCabinets: function getCabinets(state) {
+      return state.cabinets;
+    },
+    getDepartaments: function getDepartaments(state) {
+      return state.departaments;
     },
     isLoggedIn: function isLoggedIn(state) {
       return !!state.token;
@@ -6571,14 +9957,12 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
     },
     ajaxClientsFromDB: function ajaxClientsFromDB(context) {
       var token = localStorage.getItem('token');
-      console.log(token);
       var config = {
         headers: {
           Authorization: "Bearer ".concat(token)
         }
       };
-      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/Clients", config).then(function (response) {
-        console.log(response);
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/clients", config).then(function (response) {
         context.commit('setClients', response.data);
       })["catch"](function (error) {
         return console.log('ошибка', error);
@@ -6604,7 +9988,7 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
       // axios({url: 'api/Clients', data: client, method: 'POST' }, config)
       //  axios.post(‘https://site.ru/api/Login.php’, { data: user }, { headers: { ‘content-type’: ‘application/x-www-form-urlencoded’ } })
 
-      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/Clients', clients, {
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/clients', clients, {
         headers: {
           'Content-Type': 'application/json',
           Authorization: "Bearer ".concat(token)
@@ -6622,7 +10006,7 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
       var commit = _ref5.commit;
       var token = localStorage.getItem('token');
       console.log(clients);
-      axios__WEBPACK_IMPORTED_MODULE_0___default().put("api/Clients/".concat(clients.id), clients, {
+      axios__WEBPACK_IMPORTED_MODULE_0___default().put("api/clients/".concat(clients.id), clients, {
         headers: {
           'Content-Type': 'application/json',
           Authorization: "Bearer ".concat(token)
@@ -6639,7 +10023,7 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
     ajaxDeleteClients: function ajaxDeleteClients(_ref6, clients) {
       var commit = _ref6.commit;
       var token = localStorage.getItem('token');
-      axios__WEBPACK_IMPORTED_MODULE_0___default().delete("api/Clients/".concat(clients.id), {
+      axios__WEBPACK_IMPORTED_MODULE_0___default().delete("api/clients/".concat(clients.id), {
         headers: {
           'Content-Type': 'application/json',
           Authorization: "Bearer ".concat(token)
@@ -6652,11 +10036,523 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
         console.log(clients);
         console.log(e.response.data);
       });
+    },
+    ajaxSystemUnitFromDB: function ajaxSystemUnitFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/systemunits", config).then(function (response) {
+        context.commit('setSystemUnits', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetSystemUnitToDB: function ajaxSetSystemUnitToDB(_ref7, data) {
+      var commit = _ref7.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/systemunits', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxMonitorFromDB: function ajaxMonitorFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/monitor", config).then(function (response) {
+        context.commit('setMonitors', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetMonitorToDB: function ajaxSetMonitorToDB(_ref8, data) {
+      var commit = _ref8.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/monitor', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxBarcodeScanFromDB: function ajaxBarcodeScanFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/barcode", config).then(function (response) {
+        context.commit('setBarcodeScan', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetBarcodeScanToDB: function ajaxSetBarcodeScanToDB(_ref9, data) {
+      var commit = _ref9.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/barcode', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxMousesFromDB: function ajaxMousesFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/compmouses", config).then(function (response) {
+        context.commit('setMouse', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetMouseToDB: function ajaxSetMouseToDB(_ref10, data) {
+      var commit = _ref10.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/compmouses', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxKeyboardFromDB: function ajaxKeyboardFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/keyboard", config).then(function (response) {
+        context.commit('setKeyboard', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetKeyboardToDB: function ajaxSetKeyboardToDB(_ref11, data) {
+      var commit = _ref11.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/keyboard', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxHeadphonesFromDB: function ajaxHeadphonesFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/headphones", config).then(function (response) {
+        context.commit('setHeadphones', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetHeadphonesToDB: function ajaxSetHeadphonesToDB(_ref12, data) {
+      var commit = _ref12.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/headphones', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxSpeakersFromDB: function ajaxSpeakersFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/speakers", config).then(function (response) {
+        context.commit('setSpeakers', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetSpeakersToDB: function ajaxSetSpeakersToDB(_ref13, data) {
+      var commit = _ref13.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/speakers', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxPrinterFromDB: function ajaxPrinterFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/printers", config).then(function (response) {
+        context.commit('setPrinters', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetPrinterToDB: function ajaxSetPrinterToDB(_ref14, data) {
+      var commit = _ref14.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/printers', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxScansFromDB: function ajaxScansFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/scan", config).then(function (response) {
+        context.commit('setScans', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetScanToDB: function ajaxSetScanToDB(_ref15, data) {
+      var commit = _ref15.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/scan', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxMfpFromDB: function ajaxMfpFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/mfp", config).then(function (response) {
+        context.commit('setMfps', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetMfpToDB: function ajaxSetMfpToDB(_ref16, data) {
+      var commit = _ref16.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/mfp', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxUpsFromDB: function ajaxUpsFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/ups", config).then(function (response) {
+        context.commit('setUps', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetUpsToDB: function ajaxSetUpsToDB(_ref17, data) {
+      var commit = _ref17.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/ups', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxPhotoscansFromDB: function ajaxPhotoscansFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/photoscan", config).then(function (response) {
+        context.commit('setPhotoscans', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetPhotoscanToDB: function ajaxSetPhotoscanToDB(_ref18, data) {
+      var commit = _ref18.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/photoscan', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxOtherFromDB: function ajaxOtherFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/other", config).then(function (response) {
+        context.commit('setOthers', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetOtherToDB: function ajaxSetOtherToDB(_ref19, data) {
+      var commit = _ref19.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/other', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxCartridgeFromDB: function ajaxCartridgeFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/cartridges", config).then(function (response) {
+        context.commit('setCartridges', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetCartridgeToDB: function ajaxSetCartridgeToDB(_ref20, data) {
+      var commit = _ref20.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/cartridges', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxCabinetsFromDB: function ajaxCabinetsFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/cabinets", config).then(function (response) {
+        context.commit('setCabinets', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetCabinetsToDB: function ajaxSetCabinetsToDB(_ref21, data) {
+      var commit = _ref21.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/cabinets', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
+    },
+    ajaxDepartamentFromDB: function ajaxDepartamentFromDB(context) {
+      var token = localStorage.getItem('token');
+      var config = {
+        headers: {
+          Authorization: "Bearer ".concat(token)
+        }
+      };
+      axios__WEBPACK_IMPORTED_MODULE_0___default().get("api/departament", config).then(function (response) {
+        context.commit('setDepartaments', response.data);
+      })["catch"](function (error) {
+        return console.log('ошибка', error);
+      });
+    },
+    ajaxSetDepartamentToDB: function ajaxSetDepartamentToDB(_ref22, data) {
+      var commit = _ref22.commit;
+      var token = localStorage.getItem('token');
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('api/departament', data, {
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: "Bearer ".concat(token)
+        }
+      }).then(function (response) {
+        console.log('OK');
+        console.log(data);
+        console.log(response);
+      })["catch"](function (e) {
+        console.log(e.response.data);
+      });
     }
   },
   mutations: {
     setClients: function setClients(state, data) {
       return state.clients = data;
+    },
+    setSystemUnits: function setSystemUnits(state, data) {
+      return state.systemUnits = data;
+    },
+    setMonitors: function setMonitors(state, data) {
+      return state.monitors = data;
+    },
+    setBarcodeScan: function setBarcodeScan(state, data) {
+      return state.barcodeScans = data;
+    },
+    setMouse: function setMouse(state, data) {
+      return state.mouses = data;
+    },
+    setKeyboard: function setKeyboard(state, data) {
+      return state.keyboards = data;
+    },
+    setHeadphones: function setHeadphones(state, data) {
+      return state.headphoneses = data;
+    },
+    setSpeakers: function setSpeakers(state, data) {
+      return state.speakers = data;
+    },
+    setPrinters: function setPrinters(state, data) {
+      return state.printers = data;
+    },
+    setScans: function setScans(state, data) {
+      return state.scans = data;
+    },
+    setMfps: function setMfps(state, data) {
+      return state.mfps = data;
+    },
+    setUps: function setUps(state, data) {
+      return state.upss = data;
+    },
+    setPhotoscans: function setPhotoscans(state, data) {
+      return state.photoscans = data;
+    },
+    setOthers: function setOthers(state, data) {
+      return state.others = data;
+    },
+    setCartridges: function setCartridges(state, data) {
+      return state.cartridges = data;
+    },
+    setCabinets: function setCabinets(state, data) {
+      return state.cabinets = data;
+    },
+    setDepartaments: function setDepartaments(state, data) {
+      return state.departaments = data;
     },
     auth_request: function auth_request(state) {
       state.status = 'loading';
@@ -6676,10 +10572,7 @@ vue__WEBPACK_IMPORTED_MODULE_1__.default.use(vuex__WEBPACK_IMPORTED_MODULE_2__.d
     ajaxSetClientsToDB: function ajaxSetClientsToDB(state, payload) {
       state.clients.push(payload);
     }
-  } // modules: {
-  //     auth
-  // }
-
+  }
 }));
 
 /***/ }),
@@ -11673,7 +15566,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.item[data-v-2006af12]{\n    display: flex;\n}\n.disciption[data-v-2006af12]{\n    width: 40%;\n}\n/*.tech-list ul:nth-child(odd){*/\n/*    background-color:#f5eb82;*/\n/*}*/\n/*ul>li>ul:nth-child(odd){*/\n/*    background-color:#f5eb82;*/\n/*}*/\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.item[data-v-2006af12]{\n    display: flex;\n}\n.disciption[data-v-2006af12]{\n    width: 40%;\n}\nul[data-v-2006af12]{\n    margin: 5px;\n}\n/*.tech-list ul:nth-child(odd){*/\n/*    background-color:#f5eb82;*/\n/*}*/\n/*ul>li>ul:nth-child(odd){*/\n/*    background-color:#f5eb82;*/\n/*}*/\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.popup_wrapper[data-v-96865b74]{\n    background-color: rgba(64,64,64 0.4) ;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    position: absolute;\n    right: 0;\n    left: 0;\n    top: 0;\n    bottom: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 10;\n}\n.v-popup[data-v-96865b74]{\n    -webkit-backdrop-filter: blur(100px);\n            backdrop-filter: blur(100px);\n    padding: 15px;\n    position: fixed;\n    top: 50px;\n    width: 80%;\n    background: #cbddec;\n    box-shadow: 0 0 17px 0 #e6e2c5;\n    z-index: 10;\n}\n.v-popup__header[data-v-96865b74]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.v-popup__content[data-v-96865b74]{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.v-popup__footer[data-v-96865b74]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -11698,6 +15615,54 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.alert-danger[data-v-1203224f]{\n    margin-top: 25px;\n}\n#regForm[data-v-1203224f]{\n    padding-top: 80px;\n    display: flex;\n}\n#regForm div[data-v-1203224f]{\n    text-align: left;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.edit_item[data-v-e62f5202]{\n    display: flex;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.popup_wrapper[data-v-26c29fb9]{\n    background: rgba(64,64,64 0.4) ;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    position: absolute;\n    right: 0;\n    left: 0;\n    top: 0;\n    bottom: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 100;\n}\n.v-popup[data-v-26c29fb9]{\n    -webkit-backdrop-filter: blur(100px);\n            backdrop-filter: blur(100px);\n    padding: 15px;\n    position: fixed;\n    top: 50px;\n    width: 400px;\n    background: #cbddec;\n    box-shadow: 0 0 17px 0 #e6e2c5;\n    z-index: 101;\n}\n.v-popup__header[data-v-26c29fb9]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n.v-popup__content[data-v-26c29fb9]{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.v-popup__footer[data-v-26c29fb9]{\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -42752,6 +46717,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_style_index_0_id_96865b74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_style_index_0_id_96865b74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_style_index_0_id_96865b74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css& ***!
@@ -42779,6 +46774,66 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_vue_vue_type_style_index_0_id_1203224f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_style_index_0_id_e62f5202_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_style_index_0_id_e62f5202_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_style_index_0_id_e62f5202_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_style_index_0_id_26c29fb9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_style_index_0_id_26c29fb9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_style_index_0_id_26c29fb9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
 
 /***/ }),
 
@@ -43139,6 +47194,123 @@ component.options.__file = "resources/js/components/Navigation.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/views/BarcodeScan.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/BarcodeScan.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true& */ "./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true&");
+/* harmony import */ var _BarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BarcodeScan.vue?vue&type=script&lang=js& */ "./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _BarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "ac2907be",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/BarcodeScan.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cabinet.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/Cabinet.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true& */ "./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true&");
+/* harmony import */ var _Cabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cabinet.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Cabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "0c373bdc",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Cabinet.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cartridge.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/Cartridge.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true& */ "./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true&");
+/* harmony import */ var _Cartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Cartridge.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Cartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "a99ba6e2",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Cartridge.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Client.vue":
 /*!**************************************************!*\
   !*** ./resources/js/components/views/Client.vue ***!
@@ -43176,6 +47348,552 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/views/Client.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCabinet.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/views/CreateCabinet.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true& */ "./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true&");
+/* harmony import */ var _CreateCabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateCabinet.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateCabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "22bf2c40",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateCabinet.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCartridge.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/views/CreateCartridge.vue ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true& */ "./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true&");
+/* harmony import */ var _CreateCartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateCartridge.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateCartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3f7f93f3",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateCartridge.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateDepartament.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/views/CreateDepartament.vue ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true& */ "./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true&");
+/* harmony import */ var _CreateDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateDepartament.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "6ea33e33",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateDepartament.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateHeadphones.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/views/CreateHeadphones.vue ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true& */ "./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true&");
+/* harmony import */ var _CreateHeadphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateHeadphones.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateHeadphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7289a96d",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateHeadphones.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateKeyboard.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/views/CreateKeyboard.vue ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true& */ "./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true&");
+/* harmony import */ var _CreateKeyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateKeyboard.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateKeyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3eb741af",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateKeyboard.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMfp.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/CreateMfp.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true& */ "./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true&");
+/* harmony import */ var _CreateMfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateMfp.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateMfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "4428b05f",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateMfp.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMonitor.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/views/CreateMonitor.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true& */ "./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true&");
+/* harmony import */ var _CreateMonitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateMonitor.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateMonitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "dd7d937c",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateMonitor.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateOther.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/CreateOther.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true& */ "./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true&");
+/* harmony import */ var _CreateOther_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateOther.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateOther_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "69e7c0f8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateOther.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePhotoscan.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/views/CreatePhotoscan.vue ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true& */ "./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true&");
+/* harmony import */ var _CreatePhotoscan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreatePhotoscan.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreatePhotoscan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "32a363d2",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreatePhotoscan.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePrinter.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/views/CreatePrinter.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true& */ "./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true&");
+/* harmony import */ var _CreatePrinter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreatePrinter.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreatePrinter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3dcae102",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreatePrinter.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateScan.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/views/CreateScan.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateScan.vue?vue&type=template&id=09639d76&scoped=true& */ "./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true&");
+/* harmony import */ var _CreateScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateScan.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "09639d76",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateScan.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSpeakers.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/views/CreateSpeakers.vue ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true& */ "./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true&");
+/* harmony import */ var _CreateSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateSpeakers.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "6cfe6f9c",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateSpeakers.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSystemUnit.vue":
+/*!************************************************************!*\
+  !*** ./resources/js/components/views/CreateSystemUnit.vue ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true& */ "./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true&");
+/* harmony import */ var _CreateSystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateSystemUnit.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateSystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "fb7047ca",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateSystemUnit.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateUps.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/CreateUps.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateUps.vue?vue&type=template&id=06d571c0&scoped=true& */ "./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true&");
+/* harmony import */ var _CreateUps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateUps.vue?vue&type=script&lang=js& */ "./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _CreateUps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "06d571c0",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/CreateUps.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -43219,6 +47937,125 @@ component.options.__file = "resources/js/components/views/CreateUser.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Departament.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/Departament.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Departament.vue?vue&type=template&id=8fdbc062&scoped=true& */ "./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true&");
+/* harmony import */ var _Departament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Departament.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Departament.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Departament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "8fdbc062",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Departament.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/EditPopup.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/EditPopup.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EditPopup.vue?vue&type=template&id=96865b74&scoped=true& */ "./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true&");
+/* harmony import */ var _EditPopup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditPopup.vue?vue&type=script&lang=js& */ "./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js&");
+/* harmony import */ var _EditPopup_vue_vue_type_style_index_0_id_96865b74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& */ "./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _EditPopup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "96865b74",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/EditPopup.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Headphones.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/views/Headphones.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Headphones.vue?vue&type=template&id=7d2a2451&scoped=true& */ "./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true&");
+/* harmony import */ var _Headphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Headphones.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Headphones.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Headphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7d2a2451",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Headphones.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Home.vue":
 /*!************************************************!*\
   !*** ./resources/js/components/views/Home.vue ***!
@@ -43258,6 +48095,45 @@ component.options.__file = "resources/js/components/views/Home.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Keyboard.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/views/Keyboard.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Keyboard.vue?vue&type=template&id=f77db4da&scoped=true& */ "./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true&");
+/* harmony import */ var _Keyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Keyboard.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Keyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "f77db4da",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Keyboard.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Login.vue":
 /*!*************************************************!*\
   !*** ./resources/js/components/views/Login.vue ***!
@@ -43293,6 +48169,240 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/views/Login.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Mfp.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/views/Mfp.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Mfp.vue?vue&type=template&id=a51e240a&scoped=true& */ "./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true&");
+/* harmony import */ var _Mfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mfp.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Mfp.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Mfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "a51e240a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Mfp.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Monitor.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/Monitor.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Monitor.vue?vue&type=template&id=7ab945de&scoped=true& */ "./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true&");
+/* harmony import */ var _Monitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Monitor.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Monitor.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Monitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7ab945de",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Monitor.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Mouse.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/views/Mouse.vue ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Mouse.vue?vue&type=template&id=3905f2a9&scoped=true& */ "./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true&");
+/* harmony import */ var _Mouse_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mouse.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Mouse.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Mouse_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3905f2a9",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Mouse.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Other.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/views/Other.vue ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Other.vue?vue&type=template&id=bbd1f0d8&scoped=true& */ "./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true&");
+/* harmony import */ var _Other_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Other.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Other.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Other_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "bbd1f0d8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Other.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Photoscans.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/views/Photoscans.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Photoscans.vue?vue&type=template&id=0530de60&scoped=true& */ "./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true&");
+/* harmony import */ var _Photoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Photoscans.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Photoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "0530de60",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Photoscans.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Printer.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/Printer.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Printer.vue?vue&type=template&id=2742f09e&scoped=true& */ "./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true&");
+/* harmony import */ var _Printer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Printer.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Printer.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Printer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "2742f09e",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Printer.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -43338,6 +48448,164 @@ component.options.__file = "resources/js/components/views/Register.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Scan.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/views/Scan.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Scan.vue?vue&type=template&id=89e4b1ae&scoped=true& */ "./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true&");
+/* harmony import */ var _Scan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Scan.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Scan.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Scan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "89e4b1ae",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Scan.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Speakers.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/views/Speakers.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Speakers.vue?vue&type=template&id=9aef5900&scoped=true& */ "./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true&");
+/* harmony import */ var _Speakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Speakers.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Speakers.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Speakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "9aef5900",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Speakers.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/SystemUnit.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/views/SystemUnit.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true& */ "./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true&");
+/* harmony import */ var _SystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SystemUnit.vue?vue&type=script&lang=js& */ "./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js&");
+/* harmony import */ var _SystemUnit_vue_vue_type_style_index_0_id_e62f5202_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& */ "./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _SystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "e62f5202",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/SystemUnit.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Ups.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/views/Ups.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Ups.vue?vue&type=template&id=65dd84bc&scoped=true& */ "./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true&");
+/* harmony import */ var _Ups_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Ups.vue?vue&type=script&lang=js& */ "./resources/js/components/views/Ups.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Ups_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "65dd84bc",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/Ups.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Users.vue":
 /*!*************************************************!*\
   !*** ./resources/js/components/views/Users.vue ***!
@@ -43377,6 +48645,749 @@ component.options.__file = "resources/js/components/views/Users.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/views/allBarcodeScans.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/views/allBarcodeScans.vue ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true& */ "./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true&");
+/* harmony import */ var _allBarcodeScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allBarcodeScans.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allBarcodeScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "40bdc35b",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allBarcodeScans.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCabinets.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/allCabinets.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true& */ "./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true&");
+/* harmony import */ var _allCabinets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allCabinets.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allCabinets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "75f9ff80",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allCabinets.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCartridges.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/views/allCartridges.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allCartridges.vue?vue&type=template&id=47505aed&scoped=true& */ "./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true&");
+/* harmony import */ var _allCartridges_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allCartridges.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allCartridges_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "47505aed",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allCartridges.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allDepartament.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/views/allDepartament.vue ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true& */ "./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true&");
+/* harmony import */ var _allDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allDepartament.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "41ab5a76",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allDepartament.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allHeadphoneses.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/views/allHeadphoneses.vue ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true& */ "./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true&");
+/* harmony import */ var _allHeadphoneses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allHeadphoneses.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allHeadphoneses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3b5e8c10",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allHeadphoneses.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allKeyboards.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/views/allKeyboards.vue ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true& */ "./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true&");
+/* harmony import */ var _allKeyboards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allKeyboards.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allKeyboards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "03b4e657",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allKeyboards.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMfps.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/allMfps.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allMfps.vue?vue&type=template&id=5086547e&scoped=true& */ "./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true&");
+/* harmony import */ var _allMfps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allMfps.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allMfps.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allMfps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "5086547e",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allMfps.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMonitors.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/allMonitors.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allMonitors.vue?vue&type=template&id=508d9484&scoped=true& */ "./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true&");
+/* harmony import */ var _allMonitors_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allMonitors.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allMonitors_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "508d9484",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allMonitors.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMouses.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/allMouses.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allMouses.vue?vue&type=template&id=773c7c93&scoped=true& */ "./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true&");
+/* harmony import */ var _allMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allMouses.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allMouses.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "773c7c93",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allMouses.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allOthers.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/views/allOthers.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allOthers.vue?vue&type=template&id=304e0508&scoped=true& */ "./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true&");
+/* harmony import */ var _allOthers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allOthers.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allOthers.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allOthers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "304e0508",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allOthers.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPhotoscans.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/views/allPhotoscans.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true& */ "./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true&");
+/* harmony import */ var _allPhotoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allPhotoscans.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allPhotoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "f40e356e",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allPhotoscans.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPrinters.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/allPrinters.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allPrinters.vue?vue&type=template&id=87363a04&scoped=true& */ "./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true&");
+/* harmony import */ var _allPrinters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allPrinters.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allPrinters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "87363a04",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allPrinters.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allScans.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/views/allScans.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allScans.vue?vue&type=template&id=437ae301&scoped=true& */ "./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true&");
+/* harmony import */ var _allScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allScans.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allScans.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "437ae301",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allScans.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSpeakers.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/views/allSpeakers.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true& */ "./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true&");
+/* harmony import */ var _allSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allSpeakers.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "abb31b8e",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allSpeakers.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSystemUnits.vue":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/views/allSystemUnits.vue ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true& */ "./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true&");
+/* harmony import */ var _allSystemUnits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allSystemUnits.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allSystemUnits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "c53136aa",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allSystemUnits.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allUpss.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/allUpss.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./allUpss.vue?vue&type=template&id=2ce31720&scoped=true& */ "./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true&");
+/* harmony import */ var _allUpss_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./allUpss.vue?vue&type=script&lang=js& */ "./resources/js/components/views/allUpss.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _allUpss_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "2ce31720",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/allUpss.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createBarcodeScan.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/views/createBarcodeScan.vue ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true& */ "./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true&");
+/* harmony import */ var _createBarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createBarcodeScan.vue?vue&type=script&lang=js& */ "./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _createBarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "18c96ab6",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/createBarcodeScan.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createMouses.vue":
+/*!********************************************************!*\
+  !*** ./resources/js/components/views/createMouses.vue ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createMouses.vue?vue&type=template&id=4fe63296&scoped=true& */ "./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true&");
+/* harmony import */ var _createMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createMouses.vue?vue&type=script&lang=js& */ "./resources/js/components/views/createMouses.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _createMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "4fe63296",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/createMouses.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/views/v-popup.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/views/v-popup.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./v-popup.vue?vue&type=template&id=26c29fb9&scoped=true& */ "./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true&");
+/* harmony import */ var _v_popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./v-popup.vue?vue&type=script&lang=js& */ "./resources/js/components/views/v-popup.vue?vue&type=script&lang=js&");
+/* harmony import */ var _v_popup_vue_vue_type_style_index_0_id_26c29fb9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& */ "./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _v_popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "26c29fb9",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/views/v-popup.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -43409,6 +49420,54 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./BarcodeScan.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Cabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Cabinet.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Cabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Cartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Cartridge.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Cartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Client.vue?vue&type=script&lang=js&":
 /*!***************************************************************************!*\
   !*** ./resources/js/components/views/Client.vue?vue&type=script&lang=js& ***!
@@ -43422,6 +49481,230 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Client_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Client.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Client_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateCabinet.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCabinet_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateCartridge.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCartridge_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateDepartament.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateHeadphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateHeadphones.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateHeadphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateKeyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateKeyboard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateKeyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateMfp.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMonitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateMonitor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMonitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateOther_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateOther.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateOther_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePhotoscan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreatePhotoscan.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePhotoscan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrinter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreatePrinter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrinter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateScan.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateSpeakers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateSystemUnit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateUps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateUps.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateUps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -43441,6 +49724,54 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Departament.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/Departament.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Departament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Departament.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Departament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./EditPopup.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Headphones.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/views/Headphones.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Headphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Headphones.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Headphones_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Home.vue?vue&type=script&lang=js&":
 /*!*************************************************************************!*\
   !*** ./resources/js/components/views/Home.vue?vue&type=script&lang=js& ***!
@@ -43454,6 +49785,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Keyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Keyboard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Keyboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -43473,6 +49820,102 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Mfp.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/views/Mfp.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mfp.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mfp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Monitor.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/Monitor.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Monitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Monitor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Monitor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Mouse.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/views/Mouse.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mouse_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mouse.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mouse_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Other.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/views/Other.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Other_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Other.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Other_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Photoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Photoscans.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Photoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Printer.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/Printer.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Printer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Printer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Printer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Register.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************!*\
   !*** ./resources/js/components/views/Register.vue?vue&type=script&lang=js& ***!
@@ -43486,6 +49929,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Register.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Scan.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/views/Scan.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Scan.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Scan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Speakers.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/views/Speakers.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Speakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Speakers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Speakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SystemUnit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Ups.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/views/Ups.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Ups_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Ups.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Ups_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -43505,6 +50012,310 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allBarcodeScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allBarcodeScans.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allBarcodeScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allCabinets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allCabinets.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allCabinets_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allCartridges_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allCartridges.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allCartridges_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allDepartament.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allDepartament_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allHeadphoneses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allHeadphoneses.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allHeadphoneses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allKeyboards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allKeyboards.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allKeyboards_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMfps.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/allMfps.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMfps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMfps.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMfps_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMonitors_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMonitors.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMonitors_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMouses.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/allMouses.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMouses.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allOthers.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/views/allOthers.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allOthers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allOthers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allOthers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allPhotoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allPhotoscans.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allPhotoscans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allPrinters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allPrinters.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allPrinters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allScans.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/views/allScans.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allScans.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allScans_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allSpeakers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allSpeakers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allSystemUnits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allSystemUnits.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allSystemUnits_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allUpss.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/allUpss.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allUpss_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allUpss.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_allUpss_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_createBarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./createBarcodeScan.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_createBarcodeScan_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createMouses.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/views/createMouses.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_createMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./createMouses.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_createMouses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/views/v-popup.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/views/v-popup.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./v-popup.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Client.vue?vue&type=style&index=0&id=2006af12&scoped=true&lang=css&":
 /*!***********************************************************************************************************!*\
   !*** ./resources/js/components/views/Client.vue?vue&type=style&index=0&id=2006af12&scoped=true&lang=css& ***!
@@ -43518,6 +50329,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_style_index_0_id_96865b74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=style&index=0&id=96865b74&scoped=true&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css&":
 /*!*************************************************************************************************************!*\
   !*** ./resources/js/components/views/Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css& ***!
@@ -43527,6 +50351,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_vue_vue_type_style_index_0_id_1203224f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Register.vue?vue&type=style&index=0&id=1203224f&scoped=true&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_style_index_0_id_e62f5202_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=style&index=0&id=e62f5202&scoped=true&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& ***!
+  \************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_style_index_0_id_26c29fb9_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=style&index=0&id=26c29fb9&scoped=true&lang=css&");
 
 
 /***/ }),
@@ -43565,6 +50415,57 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BarcodeScan_vue_vue_type_template_id_ac2907be_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cabinet_vue_vue_type_template_id_0c373bdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Cartridge_vue_vue_type_template_id_a99ba6e2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Client.vue?vue&type=template&id=2006af12&scoped=true&":
 /*!*********************************************************************************************!*\
   !*** ./resources/js/components/views/Client.vue?vue&type=template&id=2006af12&scoped=true& ***!
@@ -43578,6 +50479,244 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Client_vue_vue_type_template_id_2006af12_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Client_vue_vue_type_template_id_2006af12_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Client.vue?vue&type=template&id=2006af12&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=template&id=2006af12&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCabinet_vue_vue_type_template_id_22bf2c40_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true& ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateCartridge_vue_vue_type_template_id_3f7f93f3_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true& ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateDepartament_vue_vue_type_template_id_6ea33e33_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true& ***!
+  \*******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateHeadphones_vue_vue_type_template_id_7289a96d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true& ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateKeyboard_vue_vue_type_template_id_3eb741af_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMfp_vue_vue_type_template_id_4428b05f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateMonitor_vue_vue_type_template_id_dd7d937c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateOther_vue_vue_type_template_id_69e7c0f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true& ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePhotoscan_vue_vue_type_template_id_32a363d2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreatePrinter_vue_vue_type_template_id_3dcae102_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateScan_vue_vue_type_template_id_09639d76_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateScan.vue?vue&type=template&id=09639d76&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true& ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSpeakers_vue_vue_type_template_id_6cfe6f9c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true& ***!
+  \*******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateSystemUnit_vue_vue_type_template_id_fb7047ca_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateUps_vue_vue_type_template_id_06d571c0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CreateUps.vue?vue&type=template&id=06d571c0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true&");
 
 
 /***/ }),
@@ -43599,6 +50738,57 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Departament_vue_vue_type_template_id_8fdbc062_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Departament.vue?vue&type=template&id=8fdbc062&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EditPopup_vue_vue_type_template_id_96865b74_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./EditPopup.vue?vue&type=template&id=96865b74&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Headphones_vue_vue_type_template_id_7d2a2451_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Headphones.vue?vue&type=template&id=7d2a2451&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Home.vue?vue&type=template&id=59b256ea&scoped=true&":
 /*!*******************************************************************************************!*\
   !*** ./resources/js/components/views/Home.vue?vue&type=template&id=59b256ea&scoped=true& ***!
@@ -43612,6 +50802,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_59b256ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_59b256ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=template&id=59b256ea&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=template&id=59b256ea&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true& ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Keyboard_vue_vue_type_template_id_f77db4da_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Keyboard.vue?vue&type=template&id=f77db4da&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true&");
 
 
 /***/ }),
@@ -43633,6 +50840,108 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mfp_vue_vue_type_template_id_a51e240a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mfp.vue?vue&type=template&id=a51e240a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Monitor_vue_vue_type_template_id_7ab945de_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Monitor.vue?vue&type=template&id=7ab945de&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true& ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mouse_vue_vue_type_template_id_3905f2a9_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mouse.vue?vue&type=template&id=3905f2a9&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true& ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Other_vue_vue_type_template_id_bbd1f0d8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Other.vue?vue&type=template&id=bbd1f0d8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Photoscans_vue_vue_type_template_id_0530de60_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Photoscans.vue?vue&type=template&id=0530de60&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Printer_vue_vue_type_template_id_2742f09e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Printer.vue?vue&type=template&id=2742f09e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Register.vue?vue&type=template&id=1203224f&scoped=true&":
 /*!***********************************************************************************************!*\
   !*** ./resources/js/components/views/Register.vue?vue&type=template&id=1203224f&scoped=true& ***!
@@ -43650,6 +50959,74 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true& ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Scan_vue_vue_type_template_id_89e4b1ae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Scan.vue?vue&type=template&id=89e4b1ae&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true& ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Speakers_vue_vue_type_template_id_9aef5900_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Speakers.vue?vue&type=template&id=9aef5900&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SystemUnit_vue_vue_type_template_id_e62f5202_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ups_vue_vue_type_template_id_65dd84bc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Ups.vue?vue&type=template&id=65dd84bc&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/views/Users.vue?vue&type=template&id=2b5ada8c&scoped=true&":
 /*!********************************************************************************************!*\
   !*** ./resources/js/components/views/Users.vue?vue&type=template&id=2b5ada8c&scoped=true& ***!
@@ -43663,6 +51040,329 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Users_vue_vue_type_template_id_2b5ada8c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Users_vue_vue_type_template_id_2b5ada8c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Users.vue?vue&type=template&id=2b5ada8c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Users.vue?vue&type=template&id=2b5ada8c&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true& ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allBarcodeScans_vue_vue_type_template_id_40bdc35b_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCabinets_vue_vue_type_template_id_75f9ff80_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allCartridges_vue_vue_type_template_id_47505aed_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allCartridges.vue?vue&type=template&id=47505aed&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true& ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allDepartament_vue_vue_type_template_id_41ab5a76_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true& ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allHeadphoneses_vue_vue_type_template_id_3b5e8c10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true& ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allKeyboards_vue_vue_type_template_id_03b4e657_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMfps_vue_vue_type_template_id_5086547e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMfps.vue?vue&type=template&id=5086547e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMonitors_vue_vue_type_template_id_508d9484_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMonitors.vue?vue&type=template&id=508d9484&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allMouses_vue_vue_type_template_id_773c7c93_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allMouses.vue?vue&type=template&id=773c7c93&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allOthers_vue_vue_type_template_id_304e0508_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allOthers.vue?vue&type=template&id=304e0508&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPhotoscans_vue_vue_type_template_id_f40e356e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allPrinters_vue_vue_type_template_id_87363a04_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allPrinters.vue?vue&type=template&id=87363a04&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true& ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allScans_vue_vue_type_template_id_437ae301_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allScans.vue?vue&type=template&id=437ae301&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSpeakers_vue_vue_type_template_id_abb31b8e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true& ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allSystemUnits_vue_vue_type_template_id_c53136aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_allUpss_vue_vue_type_template_id_2ce31720_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./allUpss.vue?vue&type=template&id=2ce31720&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true& ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createBarcodeScan_vue_vue_type_template_id_18c96ab6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true& ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_createMouses_vue_vue_type_template_id_4fe63296_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./createMouses.vue?vue&type=template&id=4fe63296&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true& ***!
+  \**********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_v_popup_vue_vue_type_template_id_26c29fb9_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./v-popup.vue?vue&type=template&id=26c29fb9&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true&");
 
 
 /***/ }),
@@ -43964,6 +51664,147 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/BarcodeScan.vue?vue&type=template&id=ac2907be&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.barcodeScan.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.barcodeScan.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.barcodeScan.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.barcodeScan.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.barcodeScan.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cabinet.vue?vue&type=template&id=0c373bdc&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Номер: " + _vm._s(_vm.cabinet.numberCabinet))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Кабинет:" + _vm._s(_vm.cabinet.description))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Cartridge.vue?vue&type=template&id=a99ba6e2&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.cartridge.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.cartridge.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.cartridge.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Совместимость:" + _vm._s(_vm.cartridge.compatibility))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Дата приема:" + _vm._s(_vm.cartridge.take))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Дата заправки:" + _vm._s(_vm.cartridge.fueled))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Дата выдачи:" + _vm._s(_vm.cartridge.issued))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.cartridge.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=template&id=2006af12&scoped=true&":
 /*!************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Client.vue?vue&type=template&id=2006af12&scoped=true& ***!
@@ -43980,3300 +51821,3202 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "card-header" }, [
-      _vm._v("\n            " + _vm._s(_vm.client.pib) + "\n        ")
-    ]),
-    _vm._v(" "),
-    _c(
-      "button",
-      {
-        staticClass: "btn btn-primary",
-        attrs: {
-          type: "button",
-          "data-bs-toggle": "modal",
-          "data-bs-target": "#staticBackdrop"
-        },
-        on: {
-          click: function($event) {
-            return _vm.editClient(_vm.client)
-          }
-        }
-      },
-      [_vm._v("\n            Edit\n        ")]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "modal fade",
-        attrs: {
-          id: "staticBackdrop",
-          "data-bs-backdrop": "static",
-          "data-bs-keyboard": "false",
-          tabindex: "-1",
-          "aria-labelledby": "staticBackdropLabel",
-          "aria-hidden": "true"
-        }
-      },
-      [
-        _c("div", { staticClass: "modal-dialog" }, [
-          _c("div", { staticClass: "modal-content" }, [
-            _vm._m(0),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-body" }, [
-              _c("p", [_vm._v("Пользователь")]),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.pib,
-                    expression: "pib"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "ФИО" },
-                domProps: { value: _vm.pib },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.pib = $event.target.value
-                  }
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _vm.isPopupVisible
+        ? _c(
+            "v-popup",
+            {
+              attrs: { popupTitle: "УДАЛЕНИЕ", okBtnTitle: "Удалить" },
+              on: {
+                closePopup: _vm.closePopup,
+                okBtnAction: function($event) {
+                  return _vm.deleteClient(_vm.client)
                 }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.locations,
-                    expression: "locations"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "№ кабинета" },
-                domProps: { value: _vm.locations },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.locations = $event.target.value
-                  }
+              }
+            },
+            [
+              _c("div", { staticClass: "div" }, [
+                _c("p", [_vm._v("удаление")]),
+                _vm._v("\n            " + _vm._s(_vm.client.id) + "\n        ")
+              ])
+            ]
+          )
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.isEditVisible
+        ? _c(
+            "edit-popup",
+            {
+              attrs: { popupTitle: "Редактирование", okBtnTitle: "Сохранить" },
+              on: {
+                closeEdit: _vm.closeEdit,
+                okBtnAction: function($event) {
+                  return _vm.finishEditClient(_vm.client)
                 }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.phone,
-                    expression: "phone"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "Номер телефона" },
-                domProps: { value: _vm.phone },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+              }
+            },
+            [
+              _c("div", { staticStyle: { width: "80%" } }, [
+                _c("p", [_vm._v("Пользователь")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.pib,
+                      expression: "pib"
                     }
-                    _vm.phone = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.numline,
-                    expression: "numline"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "Номер линии" },
-                domProps: { value: _vm.numline },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.numline = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.login,
-                    expression: "login"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "Логин" },
-                domProps: { value: _vm.login },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.login = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.email,
-                    expression: "email"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "Почта" },
-                domProps: { value: _vm.email },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.email = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.departament,
-                    expression: "departament"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "Отдел" },
-                domProps: { value: _vm.departament },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.departament = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.position,
-                    expression: "position"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "должность" },
-                domProps: { value: _vm.position },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.position = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.dob,
-                    expression: "dob"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: { type: "text", placeholder: "День рождения" },
-                domProps: { value: _vm.dob },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.dob = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.inventory_data,
-                    expression: "inventory_data"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: {
-                  type: "text",
-                  placeholder: "Дата последней инвентаризации"
-                },
-                domProps: { value: _vm.inventory_data },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.inventory_data = $event.target.value
-                  }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-footer" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-primary",
-                  attrs: { type: "button", "data-bs-dismiss": "modal" },
-                  on: { click: _vm.finishEditClient }
-                },
-                [_vm._v("OK")]
-              )
-            ])
-          ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "button",
-      {
-        staticClass: "btn btn-danger",
-        attrs: {
-          type: "button",
-          "data-bs-toggle": "modal",
-          "data-bs-target": "#exampleModal"
-        },
-        on: {
-          click: function($event) {
-            return _vm.delClient(_vm.client)
-          }
-        }
-      },
-      [_vm._v("\n            DEL\n        ")]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "modal fade",
-        attrs: {
-          id: "exampleModal",
-          tabindex: "-1",
-          "aria-labelledby": "exampleModalLabel",
-          "aria-hidden": "true"
-        }
-      },
-      [
-        _c("div", { staticClass: "modal-dialog" }, [
-          _c("div", { staticClass: "modal-content" }, [
-            _vm._m(1),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-body" }, [
-              _vm._v("\n                        ...\n                    ")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "modal-footer" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-secondary",
-                  attrs: { type: "button", "data-bs-dismiss": "modal" }
-                },
-                [_vm._v("Close")]
-              ),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-primary",
-                  attrs: { type: "button" },
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "ФИО" },
+                  domProps: { value: _vm.pib },
                   on: {
-                    click: function($event) {
-                      return _vm.deleteClient(_vm.client.id)
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.pib = $event.target.value
                     }
                   }
-                },
-                [_vm._v("DEL")]
-              )
-            ])
-          ])
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c("ul", { staticClass: "list-group list-group-flush" }, [
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v("Кабинет:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.locations))
-          ])
-        ])
-      ]),
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.locations,
+                      expression: "locations"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "№ кабинета" },
+                  domProps: { value: _vm.locations },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.locations = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.phone,
+                      expression: "phone"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Номер телефона" },
+                  domProps: { value: _vm.phone },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.phone = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.numline,
+                      expression: "numline"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Номер линии" },
+                  domProps: { value: _vm.numline },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.numline = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.login,
+                      expression: "login"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Логин" },
+                  domProps: { value: _vm.login },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.login = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.email,
+                      expression: "email"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Почта" },
+                  domProps: { value: _vm.email },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.email = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.departament,
+                      expression: "departament"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Отдел" },
+                  domProps: { value: _vm.departament },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.departament = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.position,
+                      expression: "position"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "должность" },
+                  domProps: { value: _vm.position },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.position = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.dob,
+                      expression: "dob"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "День рождения" },
+                  domProps: { value: _vm.dob },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.dob = $event.target.value
+                    }
+                  }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.inventory_data,
+                      expression: "inventory_data"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    placeholder: "Дата последней инвентаризации"
+                  },
+                  domProps: { value: _vm.inventory_data },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.inventory_data = $event.target.value
+                    }
+                  }
+                })
+              ])
+            ]
+          )
+        : _vm._e(),
       _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v("Номер телефона:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [_vm._v(_vm._s(_vm.client.phone))])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v("Номер линии:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.numline))
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v(" Логин:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [_vm._v(_vm._s(_vm.client.login))])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [
-            _vm._v(" Электронная почта:")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [_vm._v(_vm._s(_vm.client.email))])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v(" Отдел:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.departament))
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v(" Должность:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.position))
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v(" День рождения:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [_vm._v(_vm._s(_vm.client.dob))])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [
-            _vm._v(" Дата проведения инвентаризации:")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.inventory_data))
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [_vm._v(" Добавлен:")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.created_at))
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "list-group-item" }, [
-        _c("div", { staticClass: "item" }, [
-          _c("div", { staticClass: "disciption" }, [
-            _vm._v(" Дата изменения:")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "unit" }, [
-            _vm._v(_vm._s(_vm.client.updated_at))
-          ])
-        ])
+      _c("div", { staticClass: "card-header" }, [
+        _vm._v("\n        " + _vm._s(_vm.client.pib) + "\n    ")
       ]),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "accordion", attrs: { id: "accordionExample" } },
-        [
-          _c("div", { staticClass: "accordion-item" }, [
-            _vm._m(2),
+        "button",
+        {
+          staticClass: "btn btn-danger",
+          attrs: { type: "button" },
+          on: { click: _vm.showPopup }
+        },
+        [_vm._v("\n        Удалить\n    ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-info",
+          attrs: { type: "button" },
+          on: {
+            click: function($event) {
+              _vm.showEdit()
+              _vm.editClient(_vm.client)
+            }
+          }
+        },
+        [_vm._v("\n        edit\n    ")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group list-group-flush" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v("Кабинет:")]),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "accordion-collapse collapse",
-                attrs: {
-                  id: "collapseOne",
-                  "aria-labelledby": "headingOne",
-                  "data-bs-parent": "#accordionExample"
-                }
-              },
-              [
-                _c("div", { staticClass: "accordion-body" }, [
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_tech.length,
-                          expression: "client.all_tech.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Системный блок\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_tech, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.CPU,
-                                  expression: "tech.CPU"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Процессор:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.CPU))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.RAM,
-                                  expression: "tech.RAM"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Оперативная память:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.RAM))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.SSD,
-                                  expression: "tech.SSD"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Твердотелый накопитель:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.SSD))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.HDD,
-                                  expression: "tech.HDD"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Жесткий диск:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.HDD))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.VideoCard,
-                                  expression: "tech.VideoCard"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Видеокарта:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.VideoCard))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Licence,
-                                  expression: "tech.Licence"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Лицензия:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Licence))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other1,
-                                  expression: "tech.Other1"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other1))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other2,
-                                  expression: "tech.Other2"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Допмодули:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other2))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other3,
-                                  expression: "tech.Other3"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Другие:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other3))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_monitors.length,
-                          expression: "client.all_monitors.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Монитор\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_monitors, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_ups.length,
-                          expression: "client.all_ups.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Источник бесперебойного питания\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_ups, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_printer.length,
-                          expression: "client.all_printer.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Принтер\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_printer, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_mfp.length,
-                          expression: "client.all_mfp.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v("\n                    МФУ\n                ")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_mfp, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_cartridges.length,
-                          expression: "client.all_cartridges.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Картриджи\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_cartridges, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.compatibility,
-                                  expression: "tech.compatibility"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Совместимость:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.compatibility))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_scan.length,
-                          expression: "client.all_scan.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v("\n                    Сканер\n                ")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_scan, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_photoscan.length,
-                          expression: "client.all_photoscan.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Фотосканер\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_photoscan, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_mouse.length,
-                          expression: "client.all_mouse.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v("\n                    Мышка\n                ")
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_mouse, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_keyboard.length,
-                          expression: "client.all_keyboard.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Клавиатура\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_keyboard, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_headphones.length,
-                          expression: "client.all_headphones.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Наушники\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_headphones, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_speakers.length,
-                          expression: "client.all_speakers.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Колонки\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_speakers, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_barcode_scaner.length,
-                          expression: "client.all_barcode_scaner.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Сканер штрихкодов\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_barcode_scaner, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "li",
-                    {
-                      directives: [
-                        {
-                          name: "show",
-                          rawName: "v-show",
-                          value: _vm.client.all_other.length,
-                          expression: "client.all_other.length"
-                        }
-                      ],
-                      staticClass: "list-group-item tech-list"
-                    },
-                    [
-                      _c("span", { staticClass: "item-title" }, [
-                        _vm._v(
-                          "\n                    Другая техника\n                "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _vm._l(_vm.client.all_other, function(tech) {
-                        return _c("ul", { staticClass: "list-group" }, [
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.model,
-                                  expression: "tech.model"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Название:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.model))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.invNum,
-                                  expression: "tech.invNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Инвентарный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.invNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.serialNum,
-                                  expression: "tech.serialNum"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Серийный номер:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.serialNum))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.Other,
-                                  expression: "tech.Other"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Примечания:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.Other))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.created_at,
-                                  expression: "tech.created_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата добавления:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.created_at))
-                                ])
-                              ])
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "li",
-                            {
-                              directives: [
-                                {
-                                  name: "show",
-                                  rawName: "v-show",
-                                  value: tech.updated_at,
-                                  expression: "tech.updated_at"
-                                }
-                              ],
-                              staticClass: "list-group-item"
-                            },
-                            [
-                              _c("div", { staticClass: "item" }, [
-                                _c("div", { staticClass: "disciption" }, [
-                                  _vm._v("Дата последнего изменения:")
-                                ]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "unit" }, [
-                                  _vm._v(_vm._s(tech.updated_at))
-                                ])
-                              ])
-                            ]
-                          )
-                        ])
-                      })
-                    ],
-                    2
-                  )
-                ])
-              ]
-            )
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.locations))
+            ])
           ])
-        ]
-      )
-    ])
-  ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [
+              _vm._v("Номер телефона:")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.phone))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v("Номер линии:")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.numline))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v(" Логин:")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.login))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [
+              _vm._v(" Электронная почта:")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.email))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v(" Отдел:")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.departament))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v(" Должность:")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.position))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [
+              _vm._v(" День рождения:")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [_vm._v(_vm._s(_vm.client.dob))])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [
+              _vm._v(" Дата проведения инвентаризации:")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.inventory_data))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [_vm._v(" Добавлен:")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.created_at))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("div", { staticClass: "item" }, [
+            _c("div", { staticClass: "disciption" }, [
+              _vm._v(" Дата изменения:")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "unit" }, [
+              _vm._v(_vm._s(_vm.client.updated_at))
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "accordion", attrs: { id: "accordionExample" } },
+          [
+            _c("div", { staticClass: "accordion-item" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "accordion-collapse collapse",
+                  attrs: {
+                    id: "collapseOne",
+                    "aria-labelledby": "headingOne",
+                    "data-bs-parent": "#accordionExample"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "accordion-body" }, [
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_tech.length,
+                            expression: "client.all_tech.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v(
+                            "\n                Системный блок\n            "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_tech, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.CPU,
+                                    expression: "tech.CPU"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Процессор:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.CPU))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.RAM,
+                                    expression: "tech.RAM"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Оперативная память:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.RAM))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.SSD,
+                                    expression: "tech.SSD"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Твердотелый накопитель:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.SSD))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.HDD,
+                                    expression: "tech.HDD"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Жесткий диск:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.HDD))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.VideoCard,
+                                    expression: "tech.VideoCard"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Видеокарта:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.VideoCard))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Licence,
+                                    expression: "tech.Licence"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Лицензия:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Licence))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other1,
+                                    expression: "tech.Other1"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other1))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other2,
+                                    expression: "tech.Other2"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Допмодули:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other2))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other3,
+                                    expression: "tech.Other3"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Другие:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other3))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_monitors.length,
+                            expression: "client.all_monitors.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Монитор\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_monitors, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_ups.length,
+                            expression: "client.all_ups.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v(
+                            "\n                Источник бесперебойного питания\n            "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_ups, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_printer.length,
+                            expression: "client.all_printer.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Принтер\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_printer, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_mfp.length,
+                            expression: "client.all_mfp.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                МФУ\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_mfp, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_cartridges.length,
+                            expression: "client.all_cartridges.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Картриджи\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_cartridges, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.compatibility,
+                                    expression: "tech.compatibility"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Совместимость:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.compatibility))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_scan.length,
+                            expression: "client.all_scan.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Сканер\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_scan, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_photoscan.length,
+                            expression: "client.all_photoscan.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Фотосканер\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_photoscan, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_mouse.length,
+                            expression: "client.all_mouse.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Мышка\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_mouse, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_keyboard.length,
+                            expression: "client.all_keyboard.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Клавиатура\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_keyboard, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_headphones.length,
+                            expression: "client.all_headphones.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Наушники\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_headphones, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_speakers.length,
+                            expression: "client.all_speakers.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v("\n                Колонки\n            ")
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_speakers, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_barcode_scaner.length,
+                            expression: "client.all_barcode_scaner.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v(
+                            "\n                Сканер штрихкодов\n            "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_barcode_scaner, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "li",
+                      {
+                        directives: [
+                          {
+                            name: "show",
+                            rawName: "v-show",
+                            value: _vm.client.all_other.length,
+                            expression: "client.all_other.length"
+                          }
+                        ],
+                        staticClass: "list-group-item tech-list"
+                      },
+                      [
+                        _c("span", { staticClass: "item-title" }, [
+                          _vm._v(
+                            "\n                Другая техника\n            "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _vm._l(_vm.client.all_other, function(tech) {
+                          return _c("ul", { staticClass: "list-group" }, [
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.model,
+                                    expression: "tech.model"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Название:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.model))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.invNum,
+                                    expression: "tech.invNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Инвентарный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.invNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.serialNum,
+                                    expression: "tech.serialNum"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Серийный номер:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.serialNum))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.Other,
+                                    expression: "tech.Other"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Примечания:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.Other))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.created_at,
+                                    expression: "tech.created_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата добавления:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.created_at))
+                                  ])
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: tech.updated_at,
+                                    expression: "tech.updated_at"
+                                  }
+                                ],
+                                staticClass: "list-group-item"
+                              },
+                              [
+                                _c("div", { staticClass: "item" }, [
+                                  _c("div", { staticClass: "disciption" }, [
+                                    _vm._v("Дата последнего изменения:")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "unit" }, [
+                                    _vm._v(_vm._s(tech.updated_at))
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        })
+                      ],
+                      2
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "modal-header" }, [
-      _c(
-        "h5",
-        { staticClass: "modal-title", attrs: { id: "staticBackdropLabel" } },
-        [_vm._v("Modal title")]
-      ),
-      _vm._v(" "),
-      _c("button", {
-        staticClass: "btn-close",
-        attrs: {
-          type: "button",
-          "data-bs-dismiss": "modal",
-          "aria-label": "Close"
-        }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "modal-header" }, [
-      _c(
-        "h5",
-        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
-        [_vm._v("Modal title")]
-      ),
-      _vm._v(" "),
-      _c("button", {
-        staticClass: "btn-close",
-        attrs: {
-          type: "button",
-          "data-bs-dismiss": "modal",
-          "aria-label": "Close"
-        }
-      })
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -47294,12 +55037,3510 @@ var staticRenderFns = [
               "aria-controls": "collapseOne"
             }
           },
-          [
-            _vm._v(
-              "\n                            Техника\n                        "
-            )
-          ]
+          [_vm._v("\n                        Техника\n                    ")]
         )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCabinet.vue?vue&type=template&id=22bf2c40&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputNum" } },
+              [_vm._v("Номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.numberCabinet,
+                  expression: "numberCabinet"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputNum" },
+              domProps: { value: _vm.numberCabinet },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.numberCabinet = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputCabinet" } },
+              [_vm._v("Кабинет")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.description,
+                  expression: "description"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputCabinet" },
+              domProps: { value: _vm.description },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.description = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateCartridge.vue?vue&type=template&id=3f7f93f3&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Совместимость")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.compatibility,
+                  expression: "compatibility"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.compatibility },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.compatibility = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateDepartament.vue?vue&type=template&id=6ea33e33&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputNum" } },
+              [_vm._v("Кол отдела ")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.codeDepartament,
+                  expression: "codeDepartament"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputNum" },
+              domProps: { value: _vm.codeDepartament },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.codeDepartament = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputCabinet" } },
+              [_vm._v("Отдел")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.description,
+                  expression: "description"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputCabinet" },
+              domProps: { value: _vm.description },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.description = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateHeadphones.vue?vue&type=template&id=7289a96d&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateKeyboard.vue?vue&type=template&id=3eb741af&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMfp.vue?vue&type=template&id=4428b05f&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateMonitor.vue?vue&type=template&id=dd7d937c&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                            Привет, мир! Это тост-сообщение.\n                        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateOther.vue?vue&type=template&id=69e7c0f8&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePhotoscan.vue?vue&type=template&id=32a363d2&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreatePrinter.vue?vue&type=template&id=3dcae102&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateScan.vue?vue&type=template&id=09639d76&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSpeakers.vue?vue&type=template&id=6cfe6f9c&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateSystemUnit.vue?vue&type=template&id=fb7047ca&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Кабинет")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Отдел")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputCPU" } },
+              [_vm._v("CPU")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.CPU,
+                  expression: "CPU"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputCPU" },
+              domProps: { value: _vm.CPU },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.CPU = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputRAM" } },
+              [_vm._v("RAM")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.RAM,
+                  expression: "RAM"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputRAM" },
+              domProps: { value: _vm.RAM },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.RAM = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputSSD" } },
+              [_vm._v("SSD")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.SSD,
+                  expression: "SSD"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputSSD" },
+              domProps: { value: _vm.SSD },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.SSD = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputHDD" } },
+              [_vm._v("HDD")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.HDD,
+                  expression: "HDD"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputHDD" },
+              domProps: { value: _vm.HDD },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.HDD = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputVideoCard" } },
+              [_vm._v("VideoCard")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.VideoCard,
+                  expression: "VideoCard"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputVideoCard" },
+              domProps: { value: _vm.VideoCard },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.VideoCard = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputLicence" } },
+              [_vm._v("Licence")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Licence,
+                  expression: "Licence"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputLicence" },
+              domProps: { value: _vm.Licence },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Licence = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther1" } },
+              [_vm._v("Other1")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other1,
+                  expression: "Other1"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther1" },
+              domProps: { value: _vm.Other1 },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other1 = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther2" } },
+              [_vm._v("Other2")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other2,
+                  expression: "Other2"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther2" },
+              domProps: { value: _vm.Other2 },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other2 = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther3" } },
+              [_vm._v("Other3")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other3,
+                  expression: "Other3"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther3" },
+              domProps: { value: _vm.Other3 },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other3 = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/CreateUps.vue?vue&type=template&id=06d571c0&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
       ]
     )
   }
@@ -47663,6 +58904,139 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Departament.vue?vue&type=template&id=8fdbc062&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Номер: " + _vm._s(_vm.departament.codeDepartament))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Отдел:" + _vm._s(_vm.departament.description))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/EditPopup.vue?vue&type=template&id=96865b74&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { ref: "popup_wrapper", staticClass: "popup_wrapper" }, [
+    _c("div", { staticClass: "v-popup" }, [
+      _c("div", { staticClass: "v-popup__header" }, [
+        _c("span", [_vm._v(_vm._s(_vm.popupTitle))]),
+        _vm._v(" "),
+        _c("button", {
+          staticClass: "btn-close",
+          attrs: { type: "button", "aria-label": "Close" },
+          on: { click: _vm.closeEdit }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "v-popup__content" }, [_vm._t("default")], 2),
+      _vm._v(" "),
+      _c("div", { staticClass: "v-popup__footer" }, [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-success",
+            attrs: { type: "button" },
+            on: { click: _vm.okBtnAction }
+          },
+          [_vm._v(_vm._s(_vm.okBtnTitle))]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Headphones.vue?vue&type=template&id=7d2a2451&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.headphones.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.headphones.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.headphones.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.headphones.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.headphones.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=template&id=59b256ea&scoped=true&":
 /*!**********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Home.vue?vue&type=template&id=59b256ea&scoped=true& ***!
@@ -47680,6 +59054,53 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [_c("create-user")], 1)
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Keyboard.vue?vue&type=template&id=f77db4da&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.keyboard.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.keyboard.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.keyboard.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.keyboard.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.keyboard.client_id))
+      ])
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -47818,6 +59239,288 @@ var render = function() {
             )
           ]
         )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mfp.vue?vue&type=template&id=a51e240a&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.mfp.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.mfp.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.mfp.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.mfp.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.mfp.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Monitor.vue?vue&type=template&id=7ab945de&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.monitor.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.monitor.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.monitor.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.monitor.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.monitor.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Mouse.vue?vue&type=template&id=3905f2a9&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.mouse.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.mouse.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.mouse.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.mouse.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.mouse.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Other.vue?vue&type=template&id=bbd1f0d8&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.other.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.other.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.other.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.other.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.other.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Photoscans.vue?vue&type=template&id=0530de60&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.photoscan.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.photoscan.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.photoscan.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.photoscan.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.photoscan.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Printer.vue?vue&type=template&id=2742f09e&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.printer.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.printer.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.printer.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.printer.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.printer.client_id))
       ])
     ])
   ])
@@ -48024,6 +59727,725 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Scan.vue?vue&type=template&id=89e4b1ae&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.scan.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.scan.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.scan.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.scan.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.scan.client_id) + " ")
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Speakers.vue?vue&type=template&id=9aef5900&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.speakers.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.speakers.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.speakers.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.speakers.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.speakers.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/SystemUnit.vue?vue&type=template&id=e62f5202&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _vm.isPopupVisible
+        ? _c(
+            "v-popup",
+            {
+              attrs: { popupTitle: "УДАЛЕНИЕ", okBtnTitle: "Удалить" },
+              on: {
+                closePopup: _vm.closePopup,
+                okBtnAction: function($event) {
+                  return _vm.deleteSystemUnit(_vm.systemUnit)
+                }
+              }
+            },
+            [
+              _c("div", { staticClass: "div" }, [
+                _c("p", [_vm._v("удаление")]),
+                _vm._v(
+                  "\n                " +
+                    _vm._s(_vm.systemUnit.id) +
+                    "\n            "
+                )
+              ])
+            ]
+          )
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.isEditVisible
+        ? _c(
+            "edit-popup",
+            {
+              attrs: { popupTitle: "Редактирование", okBtnTitle: "Сохранить" },
+              on: {
+                closeEdit: _vm.closeEdit,
+                okBtnAction: function($event) {
+                  return _vm.finishEditSystemUnit(_vm.systemUnit)
+                }
+              }
+            },
+            [
+              _c("div", { staticStyle: { width: "60%" } }, [
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    { staticClass: "form-label", attrs: { for: "InputModel" } },
+                    [_vm._v("Модель")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.model,
+                        expression: "model"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputModel" },
+                    domProps: { value: _vm.model },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.model = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputinvNum" }
+                    },
+                    [_vm._v("Кабинет")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.invNum,
+                        expression: "invNum"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputinvNum" },
+                    domProps: { value: _vm.invNum },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.invNum = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputserialNum" }
+                    },
+                    [_vm._v("Отдел")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.serialNum,
+                        expression: "serialNum"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputserialNum" },
+                    domProps: { value: _vm.serialNum },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.serialNum = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    { staticClass: "form-label", attrs: { for: "InputCPU" } },
+                    [_vm._v("CPU")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.CPU,
+                        expression: "CPU"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputCPU" },
+                    domProps: { value: _vm.CPU },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.CPU = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    { staticClass: "form-label", attrs: { for: "InputRAM" } },
+                    [_vm._v("RAM")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.RAM,
+                        expression: "RAM"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputRAM" },
+                    domProps: { value: _vm.RAM },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.RAM = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    { staticClass: "form-label", attrs: { for: "InputSSD" } },
+                    [_vm._v("SSD")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.SSD,
+                        expression: "SSD"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputSSD" },
+                    domProps: { value: _vm.SSD },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.SSD = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    { staticClass: "form-label", attrs: { for: "InputHDD" } },
+                    [_vm._v("HDD")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.HDD,
+                        expression: "HDD"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputHDD" },
+                    domProps: { value: _vm.HDD },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.HDD = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputVideoCard" }
+                    },
+                    [_vm._v("VideoCard")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.VideoCard,
+                        expression: "VideoCard"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputVideoCard" },
+                    domProps: { value: _vm.VideoCard },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.VideoCard = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputLicence" }
+                    },
+                    [_vm._v("Licence")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.Licence,
+                        expression: "Licence"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputLicence" },
+                    domProps: { value: _vm.Licence },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.Licence = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputOther1" }
+                    },
+                    [_vm._v("Other1")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.Other1,
+                        expression: "Other1"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputOther1" },
+                    domProps: { value: _vm.Other1 },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.Other1 = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputOther2" }
+                    },
+                    [_vm._v("Other2")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.Other2,
+                        expression: "Other2"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputOther2" },
+                    domProps: { value: _vm.Other2 },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.Other2 = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "form-label",
+                      attrs: { for: "InputOther3" }
+                    },
+                    [_vm._v("Other3")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.Other3,
+                        expression: "Other3"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: { type: "text", id: "InputOther3" },
+                    domProps: { value: _vm.Other3 },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.Other3 = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "mb-3 edit_item" }, [
+                  _c(
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.client_id,
+                          expression: "client_id"
+                        }
+                      ],
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.client_id = $event.target.multiple
+                            ? $$selectedVal
+                            : $$selectedVal[0]
+                        }
+                      }
+                    },
+                    [
+                      _c("option", { attrs: { value: "" } }, [
+                        _vm._v("Выберите пользователя")
+                      ]),
+                      _vm._v(" "),
+                      _vm._l(_vm.Clients, function(client) {
+                        return _c(
+                          "option",
+                          { key: client.id, domProps: { value: client.id } },
+                          [_vm._v(_vm._s(client.pib))]
+                        )
+                      })
+                    ],
+                    2
+                  )
+                ])
+              ])
+            ]
+          )
+        : _vm._e(),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-danger",
+          attrs: { type: "button" },
+          on: { click: _vm.showPopup }
+        },
+        [_vm._v("\n            Удалить\n        ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-info",
+          attrs: { type: "button" },
+          on: {
+            click: function($event) {
+              _vm.showEdit()
+              _vm.editSystemUnit(_vm.systemUnit)
+            }
+          }
+        },
+        [_vm._v("\n            edit\n        ")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group list-group-flush" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Модель: " + _vm._s(_vm.systemUnit.model))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Инвентарный номер:" + _vm._s(_vm.systemUnit.invNum))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Серийный номер:" + _vm._s(_vm.systemUnit.serialNum))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Процессор:" + _vm._s(_vm.systemUnit.CPU))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Оперативная память:" + _vm._s(_vm.systemUnit.RAM))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Твердотелый накопитель:" + _vm._s(_vm.systemUnit.SSD))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Жесткий диск:" + _vm._s(_vm.systemUnit.HDD))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Видеокарта:" + _vm._s(_vm.systemUnit.VideoCard))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Лицензии:" + _vm._s(_vm.systemUnit.Licence))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Другое:" + _vm._s(_vm.systemUnit.Other1))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Другое:" + _vm._s(_vm.systemUnit.Other2))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Другое:" + _vm._s(_vm.systemUnit.Other3))
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Пользователь:" + _vm._s(_vm.systemUnit.client_id))
+        ])
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Ups.vue?vue&type=template&id=65dd84bc&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("ul", { staticClass: "list-group list-group-flush" }, [
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Модель: " + _vm._s(_vm.ups.model))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Инвентарный номер:" + _vm._s(_vm.ups.invNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Серийный номер:" + _vm._s(_vm.ups.serialNum))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Другое:" + _vm._s(_vm.ups.Other))
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "list-group-item" }, [
+        _vm._v("Пользователь:" + _vm._s(_vm.ups.client_id))
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Users.vue?vue&type=template&id=2b5ada8c&scoped=true&":
 /*!***********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/Users.vue?vue&type=template&id=2b5ada8c&scoped=true& ***!
@@ -48058,6 +60480,1293 @@ var render = function() {
     }),
     0
   )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allBarcodeScans.vue?vue&type=template&id=40bdc35b&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Сканеры штрихкодов")]),
+      _vm._v(" "),
+      _c("create-barcode-scan"),
+      _vm._v(" "),
+      _vm._l(_vm.BarcodeScans, function(barcodeScan) {
+        return _c(
+          "div",
+          {
+            key: barcodeScan.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("barcode-scan", { attrs: { barcodeScan: barcodeScan } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCabinets.vue?vue&type=template&id=75f9ff80&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Кабинеты")]),
+      _vm._v(" "),
+      _c("create-cabinet"),
+      _vm._v(" "),
+      _vm._l(_vm.Cabinets, function(cabinet) {
+        return _c(
+          "div",
+          {
+            key: cabinet.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("cabinet", { attrs: { cabinet: cabinet } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allCartridges.vue?vue&type=template&id=47505aed&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Картриджи")]),
+      _vm._v(" "),
+      _c("create-cartridge"),
+      _vm._v(" "),
+      _vm._l(_vm.Cartridges, function(cartridge) {
+        return _c(
+          "div",
+          {
+            key: cartridge.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("cartridge", { attrs: { cartridge: cartridge } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allDepartament.vue?vue&type=template&id=41ab5a76&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Отделы")]),
+      _vm._v(" "),
+      _c("create-departament"),
+      _vm._v(" "),
+      _vm._l(_vm.Departaments, function(departament) {
+        return _c(
+          "div",
+          {
+            key: departament.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("departament", { attrs: { departament: departament } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allHeadphoneses.vue?vue&type=template&id=3b5e8c10&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Наушники")]),
+      _vm._v(" "),
+      _c("create-headphones"),
+      _vm._v(" "),
+      _vm._l(_vm.Headphoneses, function(headphones) {
+        return _c(
+          "div",
+          {
+            key: headphones.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("headphones", { attrs: { headphones: headphones } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allKeyboards.vue?vue&type=template&id=03b4e657&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Клавиатуры")]),
+      _vm._v(" "),
+      _c("create-keyboard"),
+      _vm._v(" "),
+      _vm._l(_vm.Keyboards, function(keyboard) {
+        return _c(
+          "div",
+          {
+            key: keyboard.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("keyboard", { attrs: { keyboard: keyboard } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMfps.vue?vue&type=template&id=5086547e&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Многофункциональное устройство")]),
+      _vm._v(" "),
+      _c("create-mfp"),
+      _vm._v(" "),
+      _vm._l(_vm.Mfps, function(mfp) {
+        return _c(
+          "div",
+          { key: mfp.id, staticClass: "card", staticStyle: { width: "100%" } },
+          [_c("mfp", { attrs: { mfp: mfp } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMonitors.vue?vue&type=template&id=508d9484&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Мониторы")]),
+      _vm._v(" "),
+      _c("create-monitor"),
+      _vm._v(" "),
+      _vm._l(_vm.Monitors, function(monitor) {
+        return _c(
+          "div",
+          {
+            key: monitor.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("monitor", { attrs: { monitor: monitor } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allMouses.vue?vue&type=template&id=773c7c93&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Компьютерные мыши")]),
+      _vm._v(" "),
+      _c("create-mouses"),
+      _vm._v(" "),
+      _vm._l(_vm.Mouses, function(mouse) {
+        return _c(
+          "div",
+          {
+            key: mouse.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("mouse", { attrs: { mouse: mouse } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allOthers.vue?vue&type=template&id=304e0508&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Другая техника")]),
+      _vm._v(" "),
+      _c("create-other"),
+      _vm._v(" "),
+      _vm._l(_vm.Others, function(other) {
+        return _c(
+          "div",
+          {
+            key: other.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("other", { attrs: { other: other } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPhotoscans.vue?vue&type=template&id=f40e356e&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Мониторы")]),
+      _vm._v(" "),
+      _c("create-photoscan"),
+      _vm._v(" "),
+      _vm._l(_vm.Photoscans, function(photoscan) {
+        return _c(
+          "div",
+          {
+            key: photoscan.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("photoscans", { attrs: { photoscan: photoscan } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allPrinters.vue?vue&type=template&id=87363a04&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Принтеры")]),
+      _vm._v(" "),
+      _c("create-printer"),
+      _vm._v(" "),
+      _vm._l(_vm.printer, function(printer) {
+        return _c(
+          "div",
+          {
+            key: printer.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("printer", { attrs: { printer: printer } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allScans.vue?vue&type=template&id=437ae301&scoped=true& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Сканеры")]),
+      _vm._v(" "),
+      _c("create-scan"),
+      _vm._v(" "),
+      _vm._l(_vm.Scans, function(scan) {
+        return _c(
+          "div",
+          { key: scan.id, staticClass: "card", staticStyle: { width: "100%" } },
+          [_c("scan", { attrs: { scan: scan } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSpeakers.vue?vue&type=template&id=abb31b8e&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("Колонки")]),
+      _vm._v(" "),
+      _c("create-speakers"),
+      _vm._v(" "),
+      _vm._l(_vm.Speakerses, function(speakers) {
+        return _c(
+          "div",
+          {
+            key: speakers.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("speakers", { attrs: { speakers: speakers } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allSystemUnits.vue?vue&type=template&id=c53136aa&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("create-system-unit"),
+      _vm._v(" "),
+      _c("h1", [_vm._v("Системные блоки")]),
+      _vm._v(" "),
+      _vm._l(_vm.SystemUnits, function(systemUnit) {
+        return _c(
+          "div",
+          {
+            key: systemUnit.id,
+            staticClass: "card",
+            staticStyle: { width: "100%" }
+          },
+          [_c("system-unit", { attrs: { systemUnit: systemUnit } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/allUpss.vue?vue&type=template&id=2ce31720&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [
+      _c("span", [_vm._v("источник бесперебойного питания")]),
+      _vm._v(" "),
+      _c("create-ups"),
+      _vm._v(" "),
+      _vm._l(_vm.Upss, function(ups) {
+        return _c(
+          "div",
+          { key: ups.id, staticClass: "card", staticStyle: { width: "100%" } },
+          [_c("ups", { attrs: { ups: ups } })],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createBarcodeScan.vue?vue&type=template&id=18c96ab6&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/createMouses.vue?vue&type=template&id=4fe63296&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputModel" } },
+              [_vm._v("Модель")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.model,
+                  expression: "model"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputModel" },
+              domProps: { value: _vm.model },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.model = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputinvNum" } },
+              [_vm._v("Инвентарный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.invNum,
+                  expression: "invNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputinvNum" },
+              domProps: { value: _vm.invNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.invNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputserialNum" } },
+              [_vm._v("Серийный номер")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.serialNum,
+                  expression: "serialNum"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputserialNum" },
+              domProps: { value: _vm.serialNum },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.serialNum = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "label",
+              { staticClass: "form-label", attrs: { for: "InputOther" } },
+              [_vm._v("Примечания")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.Other,
+                  expression: "Other"
+                }
+              ],
+              staticClass: "form-control",
+              attrs: { type: "text", id: "InputOther", placeholder: " " },
+              domProps: { value: _vm.Other },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.Other = $event.target.value
+                }
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "mb-3" }, [
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.client_id,
+                    expression: "client_id"
+                  }
+                ],
+                on: {
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.client_id = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              [
+                _c("option", { attrs: { value: "" } }, [
+                  _vm._v("Выберите пользователя")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.Clients, function(client) {
+                  return _c(
+                    "option",
+                    { key: client.id, domProps: { value: client.id } },
+                    [_vm._v(_vm._s(client.pib))]
+                  )
+                })
+              ],
+              2
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary",
+              attrs: { type: "submit" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.store($event)
+                }
+              }
+            },
+            [_vm._v("Submit")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "toast align-items-center",
+        attrs: {
+          role: "alert",
+          "aria-live": "assertive",
+          "aria-atomic": "true"
+        }
+      },
+      [
+        _c("div", { staticClass: "d-flex" }, [
+          _c("div", { staticClass: "toast-body" }, [
+            _vm._v(
+              "\n                        Привет, мир! Это тост-сообщение.\n                    "
+            )
+          ]),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "btn-close me-2 m-auto",
+            attrs: {
+              type: "button",
+              "data-bs-dismiss": "toast",
+              "aria-label": "Закрыть"
+            }
+          })
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/views/v-popup.vue?vue&type=template&id=26c29fb9&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { ref: "popup_wrapper", staticClass: "popup_wrapper" }, [
+    _c("div", { staticClass: "v-popup" }, [
+      _c("div", { staticClass: "v-popup__header" }, [
+        _c("span", [_vm._v(_vm._s(_vm.popupTitle))]),
+        _vm._v(" "),
+        _c("button", {
+          staticClass: "btn-close",
+          attrs: { type: "button", "aria-label": "Close" },
+          on: { click: _vm.closePopup }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "v-popup__content" }, [_vm._t("default")], 2),
+      _vm._v(" "),
+      _c("div", { staticClass: "v-popup__footer" }, [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-success",
+            attrs: { type: "button" },
+            on: { click: _vm.okBtnAction }
+          },
+          [_vm._v(_vm._s(_vm.okBtnTitle))]
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

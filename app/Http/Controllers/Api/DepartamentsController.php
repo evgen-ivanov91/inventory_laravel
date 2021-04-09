@@ -44,7 +44,7 @@ class DepartamentsController extends Controller
             [
 
                 'codeDepartament' =>'required| string| min: 1| max: 5',
-                'description' =>'required| string| min: 3| max: 150'
+                'description' =>'required| min: 2| max: 150'
             ]
         );
         if ($validator->fails()){
@@ -99,7 +99,7 @@ class DepartamentsController extends Controller
             [
 
                 'codeDepartament' =>'required| string| min: 1| max: 5',
-                'description' =>'required| string| min: 3| max: 150'
+                'description' =>'required| min: 2| max: 150'
             ]
         );
         if ($validator->fails()){

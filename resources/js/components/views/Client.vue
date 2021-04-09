@@ -1,67 +1,55 @@
 <template>
 
     <div class="container">
+        <v-popup
+        v-if="isPopupVisible"
+        @closePopup="closePopup"
+        popupTitle="УДАЛЕНИЕ"
+        okBtnTitle="Удалить"
+        @okBtnAction="deleteClient(client)"
+        >
+            <div class="div">
+                <p>удаление</p>
+                {{client.id}}
+            </div>
+        </v-popup>
+
+        <edit-popup
+            v-if="isEditVisible"
+            @closeEdit="closeEdit"
+            popupTitle="Редактирование"
+            okBtnTitle="Сохранить"
+            @okBtnAction="finishEditClient(client)"
+        >
+            <div style="width: 80%">
+                <p>Пользователь</p>
+                <input type="text" class="form-control"  placeholder="ФИО" v-model="pib">
+                <input type="text" class="form-control"  placeholder="№ кабинета" v-model="locations">
+                <input type="text" class="form-control"  placeholder="Номер телефона" v-model="phone">
+                <input type="text" class="form-control"  placeholder="Номер линии" v-model="numline">
+                <input type="text" class="form-control"  placeholder="Логин" v-model="login">
+                <input type="text" class="form-control"  placeholder="Почта" v-model="email">
+                <input type="text" class="form-control"  placeholder="Отдел" v-model="departament">
+                <input type="text" class="form-control"  placeholder="должность" v-model="position">
+                <input type="text" class="form-control"  placeholder="День рождения" v-model="dob">
+                <input type="text" class="form-control"  placeholder="Дата последней инвентаризации" v-model="inventory_data">
+            </div>
+        </edit-popup>
         <div class="card-header">
             {{ client.pib }}
         </div>
-
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-        @click="editClient(client)">
-            Edit
+        <button type="button"
+                class="btn btn-danger"
+                @click="showPopup"
+        >
+            Удалить
         </button>
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-             tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Пользователь</p>
-                        <input type="text" class="form-control"  placeholder="ФИО" v-model="pib">
-                        <input type="text" class="form-control"  placeholder="№ кабинета" v-model="locations">
-                        <input type="text" class="form-control"  placeholder="Номер телефона" v-model="phone">
-                        <input type="text" class="form-control"  placeholder="Номер линии" v-model="numline">
-                        <input type="text" class="form-control"  placeholder="Логин" v-model="login">
-                        <input type="text" class="form-control"  placeholder="Почта" v-model="email">
-                        <input type="text" class="form-control"  placeholder="Отдел" v-model="departament">
-                        <input type="text" class="form-control"  placeholder="должность" v-model="position">
-                        <input type="text" class="form-control"  placeholder="День рождения" v-model="dob">
-                        <input type="text" class="form-control"  placeholder="Дата последней инвентаризации" v-model="inventory_data">
-                    </div>
-                    <div class="modal-footer">
-<!--                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="finishEditClient">OK</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" @click="delClient(client)">
-            DEL
+        <button type="button"
+                class="btn btn-info"
+                @click="showEdit(); editClient(client)"
+        >
+            edit
         </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" @click="deleteClient(client.id)">DEL</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <ul class="list-group list-group-flush">
             <li class="list-group-item" >
                 <div class="item">
@@ -803,8 +791,13 @@
 </template>
 
 <script>
+import axios from "axios";
+import VPopup from "./v-popup";
+import EditPopup from "./EditPopup";
+
 export default {
     name: "Client",
+    components: {EditPopup, VPopup},
     props: ['client'],
     data(){
         return{
@@ -819,11 +812,29 @@ export default {
             position : '',
             dob : '',
             inventory_data: '',
-            status: '1'
+            status: '1',
+            showModal: false,
+            isPopupVisible: false,
+            isEditVisible: false
         }
-    },
 
+    },
+    created() {
+      console.log(this.client.id);
+    },
     methods:{
+        showEdit(){
+            this.isEditVisible = true;
+        },
+        closeEdit(){
+            this.isEditVisible = false;
+        },
+        showPopup(){
+            this.isPopupVisible = true;
+        },
+        closePopup(){
+            this.isPopupVisible = false;
+        },
         editClient(client){
             this.id = client.id,
             this.pib = client.pib,
@@ -836,9 +847,8 @@ export default {
             this.position = client.position,
             this.dob = client.dob,
             this.inventory_data = client.inventory_data
-            console.log(client)
         },
-        finishEditClient(){
+        finishEditClient(client){
             const data = {
                 id: this.id,
                 pib: this.pib,
@@ -867,17 +877,11 @@ export default {
                 this.inventory_data = ''
                 )
                 .catch(err => console.log(err))
-        },
-        delClient(client){
-            this.id = client.id
+            this.closeEdit()
         },
         deleteClient(client){
-            const data = {
-                id: this.client.id
-            }
-            this.$store.dispatch('ajaxDeleteClients', data )
-                .then(() => this.$emit('open')
-                )
+            this.$store.dispatch('ajaxDeleteClients', client )
+                .then(() => this.$emit('open'))
                 .catch(err => console.log(err))
         }
     }
@@ -890,6 +894,9 @@ export default {
 }
 .disciption{
     width: 40%;
+}
+ul{
+    margin: 5px;
 }
 /*.tech-list ul:nth-child(odd){*/
 /*    background-color:#f5eb82;*/

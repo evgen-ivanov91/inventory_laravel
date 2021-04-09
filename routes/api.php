@@ -19,6 +19,8 @@ use App\Http\Controllers\Api\CabinetsController;
 use App\Http\Controllers\Api\PositionsController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Api\UpsController;
+use App\Http\Controllers\Api\BarcodeScanerController;
+use App\Http\Controllers\Api\DepartamentsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -38,22 +40,24 @@ Route::post('/register',[AuthController::class, 'register']);
 Route::post('/login',[AuthController::class, 'login']);
 
 Route::group(['middleware'=>['auth:sanctum']],function(){
-    Route::resource('Clients', ClientsController:: class);
-    Route::resource('SystemUnits', SystemUnitsController:: class);
-    Route::resource('Monitor', MonitorController:: class);
-    Route::resource('Headphones', HeadphonesController:: class);
-    Route::resource('Keyboard', KeyboardController:: class);
-    Route::resource('Mfp', MfpController:: class);
-    Route::resource('CompMouses', CompMousesController:: class);
-    Route::resource('Other', OtherController:: class);
-    Route::resource('Photoscan', PhotoscanController:: class);
-    Route::resource('Printers', PrintersController:: class);
-    Route::resource('Scan', ScanController:: class);
-    Route::resource('Speakers', SpeakersController:: class);
-    Route::resource('Cartridges', CartridgesController:: class);
-    Route::resource('Cabinets', CabinetsController:: class);
-    Route::resource('Positions', PositionsController:: class);
-    Route::resource('Ups', UpsController:: class);
+    Route::resource('clients', ClientsController:: class);
+    Route::resource('systemunits', SystemUnitsController:: class);
+    Route::resource('monitor', MonitorController:: class);
+    Route::resource('headphones', HeadphonesController:: class);
+    Route::resource('keyboard', KeyboardController:: class);
+    Route::resource('mfp', MfpController:: class);
+    Route::resource('compmouses', CompMousesController:: class);
+    Route::resource('other', OtherController:: class);
+    Route::resource('photoscan', PhotoscanController:: class);
+    Route::resource('printers', PrintersController:: class);
+    Route::resource('scan', ScanController:: class);
+    Route::resource('speakers', SpeakersController:: class);
+    Route::resource('cartridges', CartridgesController:: class);
+    Route::resource('cabinets', CabinetsController:: class);
+    Route::resource('positions', PositionsController:: class);
+    Route::resource('ups', UpsController:: class);
+    Route::resource('barcode', BarcodeScanerController:: class);
+    Route::resource('departament', DepartamentsController:: class);
     Route::post('/logout',[AuthController::class, 'logout']);
 });
 
