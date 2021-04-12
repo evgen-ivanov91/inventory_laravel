@@ -113,12 +113,9 @@ class BarcodeScanerController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-
                 'invNum' =>'required| string| min: 1| max:20',
-
                 'Other' =>'max: 300',
                 'client_id' =>'max:30|exists:clients,id',
-
             ]
         );
         if ($validator->fails()){

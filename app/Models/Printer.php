@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,5 +13,7 @@ class Printer extends Model
     public function Client(){
         return $this->belongsTo(Client::class);
     }
-    //работает
+    public function getCreatedAtAttribute($date){
+        return Carbon::parse($date)->format('d.m.Y');
+    }
 }

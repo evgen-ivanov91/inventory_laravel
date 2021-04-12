@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Cabinet extends Model
 {
     use HasFactory;
-    protected $fillable = ['codePosition','description'];
+    protected $fillable = ['numberCabinet','description'];
 }
 //codePosition	description	created_at	updated_at

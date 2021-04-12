@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container mt-3">
         <div class="row" id="regForm">
             <div class="col-md-6 col-6">
 <!--                <img src="../assets/inventory.png" alt="">-->
@@ -47,49 +47,13 @@ name: "Login",
                     .then(() => this.$router.push('/'))
                     .catch(err => console.log(err))
             }
-
-        // onSubmit(){
-        //     const user = {
-        //         email: this.email,
-        //         password: this.password
-        //     }
-        //     this.$store.dispatch('sendLoginRequest', user)
-        //         .then (()=>{
-        //             console.log('OK')
-        //             // this.$router.push('/')
-        //         })
-        //
-        // }
     },
-    // computed:{
-    //     error(){
-    //         return this.$store.getters.getError
-    //     }
-    // }
-    // data: function () {
-    //     return {
-    //         details: {
-    //             email: "sawayn.fannie@example.net",
-    //             password: "12345678",
-    //         },
-    //         user_id: 0,
-    //     };
-    // },
-    // computed: {
-    //     ...mapGetters(["errors"]),
-    //     ...mapGetters("auth", ["user"]),
-    // },
-    // mounted() {
-    //     this.$store.commit("setErrors", {});
-    // },
-    // methods: {
-    //     ...mapActions("auth", ["sendLoginRequest"]),
-    //     login() {
-    //         this.sendLoginRequest(this.details).then(() => {
-    //             this.$router.push('/');
-    //         });
-    //     },
-    // }
+    computed:{
+        error(){
+            return this.$store.getters.getError
+        }
+    }
+
 }
 </script>
 

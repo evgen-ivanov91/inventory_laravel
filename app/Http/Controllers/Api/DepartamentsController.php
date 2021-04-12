@@ -110,7 +110,7 @@ class DepartamentsController extends Controller
         }
         $Departament = Departament::find($id);
 
-        $Departament->numberCabinet = $request->numberCabinet;
+        $Departament->codeDepartament = $request->codeDepartament;
         $Departament->description = $request->description;
 
 

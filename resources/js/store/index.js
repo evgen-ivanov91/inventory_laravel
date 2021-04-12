@@ -25,7 +25,8 @@ export default new Vuex.Store({
         others: [],
         cartridges:[],
         cabinets: [],
-        departaments: []
+        departaments: [],
+        positions: []
     },
     getters:{
         getClients(state){
@@ -64,6 +65,9 @@ export default new Vuex.Store({
         getUps(state){
             return state.upss
         },
+        getPhotoscans(state){
+            return state.photoscans
+        },
         getOthers(state){
             return state.others
         },
@@ -72,6 +76,9 @@ export default new Vuex.Store({
         },
         getCabinets(state){
             return state.cabinets
+        },
+        getPosition(state){
+            return state.positions
         },
         getDepartaments(state){
             return state.departaments
@@ -105,6 +112,7 @@ export default new Vuex.Store({
                 commit('auth_request')
                 axios({url: 'api/register', data: user, method: 'POST' })
                     .then(resp => {
+                        console.log(resp)
                         const token = resp.data.token
                         const user = resp.data.user
                         localStorage.setItem('token', token)
@@ -131,75 +139,35 @@ export default new Vuex.Store({
 
         ajaxClientsFromDB(context){
             const token = localStorage.getItem('token')
-
             const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+                headers: { Authorization: `Bearer ${token}` }};
                 axios
                     .get("api/clients",config)
-                    .then(response=>{
-
-                        context.commit('setClients', response.data)
-                    })
+                    .then(response=>{context.commit('setClients', response.data)})
                     .catch(error=>console.log('ошибка', error))
-
-
-            //
-            // const token = localStorage.getItem('token')
-            // // console.log(token)
-            // axios
-            //     .get("api/Clients",{
-            //         headres: {
-            //             Authorization: 'Bearer' + token
-            //         }})
-            //     .then(response=>{
-            //         console.log(response)
-            //         context.commit('setClients', response.data)
-            //     })
-            //     .catch(error=>console.log('ошибка', error))
         },
         ajaxSetClientsToDB({commit}, clients) {
             const token = localStorage.getItem('token')
-            console.log(token)
-            console.log(clients)
-            // const config = {headers: {Authorization: `Bearer ${token}`}};
-            // axios({url: 'api/Clients', data: client, method: 'POST' }, config)
-            //  axios.post(‘https://site.ru/api/Login.php’, { data: user }, { headers: { ‘content-type’: ‘application/x-www-form-urlencoded’ } })
             axios
                 .post('api/clients', clients, { headers: {
                     'Content-Type': 'application/json',
                     Authorization: `Bearer ${token}`
                 }})
-                .then(response=>{
-                    // if(response.data.status){
-                        console.log('OK')
-                    console.log(clients)
-                    console.log(response)
-                    // }
-                })
+                .then(response=>{})
                 .catch(e =>{
                     console.log(e.response.data)
                 })
         },
         ajaxEditClientsInDB({commit}, clients){
             const token = localStorage.getItem('token')
-            console.log(clients)
             axios
-                .put(`api/clients/${clients.id}`,
-                    clients,
-                    { headers: {
+                .put(`api/clients/${clients.id}`, clients, { headers: {
                             'Content-Type': 'application/json',
-                            Authorization: `Bearer ${token}`
-                        }})
+                            Authorization: `Bearer ${token}`}})
                 .then(response =>{
-                    console.log(clients)
                     console.log(response)
                 })
-                .catch(e =>{
-                    console.log('ВСЕ ХЕРОВО!')
-                    console.log(clients)
-                console.log(e.response.data)
-            })
+                .catch(e =>{console.log(e.response.data)})
         },
         ajaxDeleteClients({commit}, clients){
             const token = localStorage.getItem('token')
@@ -209,15 +177,8 @@ export default new Vuex.Store({
                             'Content-Type': 'application/json',
                             Authorization: `Bearer ${token}`
                         }})
-                .then(response =>{
-                    console.log(clients)
-                    console.log(response)
-                })
-                .catch(e =>{
-                    console.log('ВСЕ ХЕРОВО!')
-                    console.log(clients)
-                    console.log(e.response.data)
-                })
+                .then(response =>{})
+                .catch(e =>{console.log(e.response.data)})
         },
 
         ajaxSystemUnitFromDB(context){
@@ -228,7 +189,6 @@ export default new Vuex.Store({
             axios
                 .get("api/systemunits",config)
                 .then(response=>{
-
                     context.commit('setSystemUnits', response.data)
                 })
                 .catch(error=>console.log('ошибка', error))
@@ -237,68 +197,81 @@ export default new Vuex.Store({
         ajaxSetSystemUnitToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/systemunits', data, {
-                    headers: {
+                .post('api/systemunits', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
+                        Authorization: `Bearer ${token}`}
                 })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                .then(response => {})
+                .catch(e => {console.log(e.response.data)})
+        },
+        ajaxEditSystemUnitInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/systemunits/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then(response =>{})
+                .catch(e =>{console.log(e.response.data)})
+        },
+        ajaxDeleteSystemUnit({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/systemunits/${data.id}`, { headers: {
+                            'Content-Type': 'application/json',
+                            Authorization: `Bearer ${token}`
+                        }})
+                .then(response =>{})
+                .catch(e =>{console.log(e.response.data)})
         },
 
         ajaxMonitorFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/monitor",config)
                 .then(response=>{
-
                     context.commit('setMonitors', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
+                .catch()
 
         },
         ajaxSetMonitorToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/monitor', data, {
-                    headers: {
+                .post('api/monitor', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then(response => {})
+                .catch(e => {})
+        },
+        ajaxEditMonitorInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/monitor/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteMonitor({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/monitor/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxBarcodeScanFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/barcode",config)
                 .then(response=>{
-
                     context.commit('setBarcodeScan', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetBarcodeScanToDB({commit}, data) {
             const token = localStorage.getItem('token')
@@ -309,194 +282,228 @@ export default new Vuex.Store({
                         Authorization: `Bearer ${token}`
                     }
                 })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                .then()
+                .catch()
+        },
+        ajaxEditBarcodeScanInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/barcode/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteBarcodeScan({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/barcode/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`
+                    }})
+                .then()
+                .catch()
         },
 
         ajaxMousesFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/compmouses",config)
                 .then(response=>{
-
                     context.commit('setMouse', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetMouseToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/compmouses', data, {
-                    headers: {
+                .post('api/compmouses', data, {headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditMouseInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/compmouses/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteMouse({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/compmouses/${data.id}`, { headers: {
                         'Content-Type': 'application/json',
                         Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                    }})
+                .then()
+                .catch()
         },
 
         ajaxKeyboardFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/keyboard",config)
                 .then(response=>{
-
                     context.commit('setKeyboard', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetKeyboardToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/keyboard', data, {
-                    headers: {
+                .post('api/keyboard', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditKeyboardInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/keyboard/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteKeyboard({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/keyboard/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxHeadphonesFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/headphones",config)
                 .then(response=>{
-
-                    context.commit('setHeadphones', response.data)
-                })
-                .catch(error=>console.log('ошибка', error))
-
+                    context.commit('setHeadphones', response.data)})
+                .catch()
         },
         ajaxSetHeadphonesToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/headphones', data, {
-                    headers: {
+                .post('api/headphones', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditHeadphonesInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/headphones/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteHeadphones({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/headphones/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxSpeakersFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/speakers",config)
                 .then(response=>{
-
-                    context.commit('setSpeakers', response.data)
-                })
-                .catch(error=>console.log('ошибка', error))
+                    context.commit('setSpeakers', response.data)})
+                .catch()
 
         },
         ajaxSetSpeakersToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/speakers', data, {
-                    headers: {
+                .post('api/speakers', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditSpeakersInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/speakers/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteSpeakers({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/speakers/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxPrinterFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/printers",config)
                 .then(response=>{
-
                     context.commit('setPrinters', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetPrinterToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/printers', data, {
-                    headers: {
+                .post('api/printers', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditPrinterInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/printers/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeletePrinter({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/printers/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxScansFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/scan",config)
                 .then(response=>{
-
                     context.commit('setScans', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetScanToDB({commit}, data) {
             const token = localStorage.getItem('token')
@@ -504,65 +511,76 @@ export default new Vuex.Store({
                 .post('api/scan', data, {
                     headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditScanInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/scan/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteScan({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/scan/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxMfpFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/mfp",config)
                 .then(response=>{
-
                     context.commit('setMfps', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetMfpToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/mfp', data, {
-                    headers: {
+                .post('api/mfp', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditMfpInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/mfp/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteMfp({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/mfp/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxUpsFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/ups",config)
                 .then(response=>{
-
                     context.commit('setUps', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetUpsToDB({commit}, data) {
             const token = localStorage.getItem('token')
@@ -570,182 +588,255 @@ export default new Vuex.Store({
                 .post('api/ups', data, {
                     headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditUpsInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/ups/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteUps({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/ups/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
-        ajaxPhotoscansFromDB(context){
+        ajaxPhotoscanFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/photoscan",config)
                 .then(response=>{
-
                     context.commit('setPhotoscans', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetPhotoscanToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/photoscan', data, {
-                    headers: {
+                .post('api/photoscan', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditPhotoscanInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/photoscan/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeletePhotoscan({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/photoscan/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxOtherFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/other",config)
                 .then(response=>{
-
                     context.commit('setOthers', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetOtherToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/other', data, {
-                    headers: {
+                .post('api/other', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditOtherInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/other/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteOther({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/other/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxCartridgeFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/cartridges",config)
                 .then(response=>{
-
                     context.commit('setCartridges', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetCartridgeToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/cartridges', data, {
-                    headers: {
+                .post('api/cartridges', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditCartridgeInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/cartridges/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteCartridge({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/cartridges/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxCabinetsFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/cabinets",config)
                 .then(response=>{
-
                     context.commit('setCabinets', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetCabinetsToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/cabinets', data, {
-                    headers: {
+                .post('api/cabinets', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
-                })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditCabinetsInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/cabinets/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteCabinets({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/cabinets/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
 
         ajaxDepartamentFromDB(context){
             const token = localStorage.getItem('token')
-            const config = {
-                headers: { Authorization: `Bearer ${token}` }
-            };
+            const config = {headers: { Authorization: `Bearer ${token}` }};
             axios
                 .get("api/departament",config)
                 .then(response=>{
-
                     context.commit('setDepartaments', response.data)
                 })
-                .catch(error=>console.log('ошибка', error))
-
+                .catch()
         },
         ajaxSetDepartamentToDB({commit}, data) {
             const token = localStorage.getItem('token')
             axios
-                .post('api/departament', data, {
-                    headers: {
+                .post('api/departament', data, {headers: {
                         'Content-Type': 'application/json',
-                        Authorization: `Bearer ${token}`
-                    }
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditDepartamentInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/departament/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeleteDepartament({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/departament/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+
+        ajaxPositionFromDB(context){
+            const token = localStorage.getItem('token')
+            const config = {headers: { Authorization: `Bearer ${token}` }};
+            axios
+                .get("api/positions",config)
+                .then(response=>{
+                    context.commit('setPosition', response.data)
                 })
-                .then(response => {
-                    console.log('OK')
-                    console.log(data)
-                    console.log(response)
-                })
-                .catch(e => {
-                    console.log(e.response.data)
-                })
+                .catch()
+        },
+        ajaxSetPositionToDB({commit}, data) {
+            const token = localStorage.getItem('token')
+            axios
+                .post('api/positions', data, {headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxEditPositionInDB({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .put(`api/positions/${data.id}`, data, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
+        },
+        ajaxDeletePosition({commit}, data){
+            const token = localStorage.getItem('token')
+            axios
+                .delete(`api/positions/${data.id}`, { headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${token}`}})
+                .then()
+                .catch()
         },
     },
     mutations:{
@@ -800,6 +891,9 @@ export default new Vuex.Store({
         setDepartaments(state, data){
             return state.departaments = data
         },
+        setPosition(state, data){
+            return state.positions = data
+        },
         auth_request(state){
             state.status = 'loading'
         },
@@ -817,7 +911,6 @@ export default new Vuex.Store({
         },
         ajaxSetClientsToDB(state,payload){
             state.clients.push(payload)
-        },
+        }
     }
-
 })

@@ -43,16 +43,16 @@ class SystemUnitsController extends Controller
             [
                 'model' =>'required| string| min: 3| max: 50',
                 'invNum' =>'required| string| min: 1| max:20',
-                'serialNum' =>'unique:cartridges|string| max: 50',
-                'CPU' =>'string| max: 50',
-                'RAM' =>'string| max: 50',
-                'SSD' =>'string| max: 50',
-                'HDD' =>'string| max: 50',
-                'VideoCard' =>'string| max: 50',
-                'Licence' =>'string| max: 50',
-                'Other1' =>'string| max: 300',
-                'Other2' =>'string| max: 300',
-                'Other3' =>'string| max: 300',
+                'serialNum' =>'nullable|unique:cartridges|string| max: 50',
+                'CPU' =>'nullable|string| max: 50',
+                'RAM' =>'nullable|string| max: 50',
+                'SSD' =>'nullable|string| max: 50',
+                'HDD' =>'nullable|string| max: 50',
+                'VideoCard' =>'nullable|string| max: 50',
+                'Licence' =>'nullable|string| max: 50',
+                'Other1' =>'nullable|string| max: 300',
+                'Other2' =>'nullable|string| max: 300',
+                'Other3' =>'nullable|string| max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );
@@ -119,18 +119,18 @@ class SystemUnitsController extends Controller
         $validator = Validator::make(
             $request->all(),
             [
-                'model' =>'required| string| min: 3| max: 50',
-                'invNum' =>'required| string| min: 1| max:20',
-                'serialNum' =>'unique:cartridges|string| max: 50',
-                'CPU' =>'string| max: 50',
-                'RAM' =>'string| max: 50',
-                'SSD' =>'string| max: 50',
-                'HDD' =>'string| max: 50',
-                'VideoCard' =>'string| max: 50',
-                'Licence' =>'string| max: 50',
-                'Other1' =>'string| max: 300',
-                'Other2' =>'string| max: 300',
-                'Other3' =>'string| max: 300',
+                'model' =>'nullable|required| string| min: 3| max: 50',
+                'invNum' =>'nullable|required| string| min: 1| max:20',
+                'serialNum' =>'nullable|unique:cartridges|string| max: 50',
+                'CPU' =>'nullable|string| max: 50',
+                'RAM' =>'nullable|string| max: 50',
+                'SSD' =>'nullable|string| max: 50',
+                'HDD' =>'nullable|string| max: 50',
+                'VideoCard' =>'nullable|string| max: 50',
+                'Licence' =>'nullable|string| max: 50',
+                'Other1' =>'nullable|string| max: 300',
+                'Other2' =>'nullable|string| max: 300',
+                'Other3' =>'nullable|string| max: 300',
                 'client_id' =>'max:30|exists:clients,id'
             ]
         );
@@ -142,7 +142,9 @@ class SystemUnitsController extends Controller
         }
         $SystemUnit = SystemUnit::find($id);
 
+        $SystemUnit->model = $request->model;
         $SystemUnit->invNum = $request->invNum;
+        $SystemUnit->serialNum = $request->serialNum;
         $SystemUnit->CPU = $request->CPU;
         $SystemUnit->RAM = $request->RAM;
         $SystemUnit->SSD = $request->SSD;

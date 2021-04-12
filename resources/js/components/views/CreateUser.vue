@@ -1,8 +1,7 @@
 <template>
-
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12">
                     <form>
                     <div class="mb-3">
                         <label for="InputPib" class="form-label">ФИО</label>
@@ -10,15 +9,37 @@
                     </div>
                     <div class="mb-3">
                         <label for="InputLocations" class="form-label">Кабинет</label>
-                        <input type="text" class="form-control" id="InputLocations" v-model="locations">
+                        <select v-model="locations" id="InputLocations">
+                            <option value="">Выберите кабинет</option>
+                            <option v-for="cabinet in Cabinets"
+                                    :value="cabinet.numberCabinet"
+                                    :key="cabinet.id"
+                            >{{cabinet.numberCabinet}}{{cabinet.description}}</option>
+                        </select>
+<!--                        <input type="text" class="form-control" id="InputLocations" v-model="locations">-->
                     </div>
                     <div class="mb-3">
                         <label for="InputDepartament" class="form-label">Отдел</label>
-                        <input type="text" class="form-control" id="InputDepartament" v-model="departament">
+                        <select v-model="departament" id="InputDepartament">
+                            <option value="">Выберите отдел</option>
+                            <option v-for="departament in Departaments"
+                                    :value="departament.description"
+                                    :key="departament.id"
+                            >{{departament.codeDepartament}}{{departament.description}}</option>
+                        </select>
+<!--                        <input type="text" class="form-control" id="InputDepartament" v-model="departament">-->
+
                     </div>
                     <div class="mb-3">
                         <label for="InputPosition" class="form-label">Должность</label>
-                        <input type="text" class="form-control" id="InputPosition" v-model="position">
+                        <select v-model="position" id="InputPosition">
+                            <option value="">Выберите отдел</option>
+                            <option v-for="position in Positions"
+                                    :value="position.description"
+                                    :key="position.id"
+                            >{{position.codePosition}}{{position.description}}</option>
+                        </select>
+<!--                        <input type="text" class="form-control" id="InputPosition" v-model="position">-->
                     </div>
                     <div class="mb-3">
                         <label for="InputPhone" class="form-label">Телефон</label>
@@ -58,7 +79,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 export default {
 name: "CreateUser",
     data:()=>({
@@ -76,7 +96,21 @@ name: "CreateUser",
 
 
     }),
+    mounted() {
+        this.loadCabinets();
+        this.loadDepartaments();
+        this.loadPositions();
+    },
     methods:{
+        loadCabinets(){
+            this.$store.dispatch('ajaxCabinetsFromDB')
+        },
+        loadDepartaments(){
+            this.$store.dispatch('ajaxDepartamentFromDB')
+        },
+        loadPositions(){
+            this.$store.dispatch('ajaxPositionFromDB')
+        },
         store(){
             const data = {
                 pib: this.pib,
@@ -91,6 +125,29 @@ name: "CreateUser",
                 status:this.status,
             }
             this.$store.dispatch('ajaxSetClientsToDB', data )
+            .then(
+                alert('Добавленно'),
+                this.pib = "",
+                this.locations = "",
+                this.departament = "",
+                this.position = "",
+                this.phone = "",
+                this.login = "",
+                this.email = "",
+                this.dob = "",
+                this.numline = ""
+            )
+        }
+    },
+    computed:{
+        Cabinets(){
+            return this.$store.getters.getCabinets
+        },
+        Departaments(){
+            return this.$store.getters.getDepartaments
+        },
+        Positions(){
+            return this.$store.getters.getPosition
         }
     }
 
@@ -99,5 +156,11 @@ name: "CreateUser",
 </script>
 
 <style scoped>
-
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    width: 20%;
+}
 </style>

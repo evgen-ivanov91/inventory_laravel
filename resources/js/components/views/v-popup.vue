@@ -61,7 +61,7 @@ name: "v-popup",
 
 <style scoped>
 .popup_wrapper{
-    background: rgba(64,64,64 0.4) ;
+    background: rgba(64,64,64, 0.2) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ name: "v-popup",
     position: fixed;
     top: 50px;
     width: 400px;
-    background: #cbddec;
+    background: #b5b5b5;
     box-shadow: 0 0 17px 0 #e6e2c5;
     z-index: 101;
 }

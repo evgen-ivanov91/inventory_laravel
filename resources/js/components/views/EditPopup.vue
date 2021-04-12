@@ -37,9 +37,6 @@ name: "editPopup",
 
     }
     },
-    computed:{
-
-    },
     methods:{
         okBtnAction(){
             this.$emit('okBtnAction')
@@ -61,7 +58,7 @@ name: "editPopup",
 
 <style scoped>
 .popup_wrapper{
-    background-color: rgba(64,64,64 0.4) ;
+    background: rgba(64,64,64, 0.2) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,9 +76,9 @@ name: "editPopup",
     backdrop-filter: blur(100px);
     padding: 15px;
     position: fixed;
-    top: 50px;
-    width: 80%;
-    background: #cbddec;
+    top: 30px;
+    width: 60%;
+    background: #b5b5b5;
     box-shadow: 0 0 17px 0 #e6e2c5;
     z-index: 10;
 }

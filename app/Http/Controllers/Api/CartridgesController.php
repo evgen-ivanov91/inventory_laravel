@@ -44,12 +44,12 @@ class CartridgesController extends Controller
                 'model' =>'required| string| min: 3| max: 50',
                 'invNum' =>'required| string| min: 1| max:20',
                 'serialNum' =>'unique:cartridges| max: 50',
-                'compatibility' =>' max: 150',
-                'take' =>'max: 50',
-                'fueled' =>'max: 50',
-                'issued' =>' max: 50',
-                'client_id' =>'max:30|exists:clients,id',
-                'status' =>' max: 1'
+                'compatibility' =>'nullable| max: 150',
+                'take' =>'nullable|max: 502',
+                'fueled' =>'nullable|max: 50',
+                'issued' =>'nullable| max: 50',
+                'client_id' =>'nullable|max:30|exists:clients,id',
+                'status' =>' max: 10'
             ]
         );
         if ($validator->fails()){
@@ -119,11 +119,11 @@ class CartridgesController extends Controller
             $request->all(),
             [
                 'invNum' =>'required| string| min: 1| max:20',
-                'take' =>' max: 50',
-                'fueled' =>' max: 50',
-                'issued' =>'max: 50',
-                'client_id' =>'exist: Clients, id',
-                'status' =>' max: 1'
+                'take' =>' nullable|max: 50',
+                'fueled' =>'nullable| max: 50',
+                'issued' =>'nullable|max: 50',
+               'client_id' =>'max:30|exists:clients,id',
+                'status' =>' max: 10'
             ]
         );
         if ($validator->fails()){
@@ -132,7 +132,7 @@ class CartridgesController extends Controller
                 $validator->messages()
             ] ;
         }
-        // ИЗМЕНЕНИЕ надо добавить валидацию!
+
         $Cartridges = Cartridges::find($id);
 
         $Cartridges->invNum = $request->invNum;
@@ -156,7 +156,6 @@ class CartridgesController extends Controller
      */
     public function destroy($id)
     {
-        //УДАЛЕНИЕ!!!
         $Cartridges = Cartridges::find($id);
         $Cartridges->delete();
 

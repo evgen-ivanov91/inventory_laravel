@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -50,5 +51,8 @@ class Client extends Model
     }
     public function allCartridges(){
         return $this->hasMany(Cartridges::class, 'client_id', 'id');
+    }
+    public function getCreatedAtAttribute($date){
+        return Carbon::parse($date)->format('d.m.Y');
     }
 }
